@@ -1,0 +1,1504 @@
+{
+  "{\"filename\":\"/home/badrouch/Bureau/front-ends/react/redux-react-router-email-client-master/server/app.js\",\"env\":{},\"retainLines\":false,\"highlightCode\":true,\"suppressDeprecationMessages\":false,\"presets\":[],\"plugins\":[[[],{\"loose\":false,\"spec\":false}],[[],null],[[],null],[[],{\"spec\":false}],[[],null],[[],{\"loose\":false}],[[],null],[[],null],[[],null],[[],{\"loose\":false}],[[],{\"loose\":false}],[[],null],[[],null],[[],null],[[],{\"loose\":false}],[[],null],[[],{\"loose\":false}],[[],null],[[],null],[[],{\"loose\":false}],[[],{\"async\":false,\"asyncGenerators\":false}]],\"ignore\":[],\"code\":true,\"metadata\":true,\"ast\":true,\"comments\":true,\"compact\":\"auto\",\"minified\":false,\"sourceRoot\":\"/home/badrouch/Bureau/front-ends/react/redux-react-router-email-client-master/server\",\"babelrc\":true,\"sourceType\":\"module\",\"moduleIds\":false,\"passPerPreset\":false,\"parserOpts\":false,\"generatorOpts\":false}:6.26.3": {
+    "metadata": {
+      "usedHelpers": [
+        "interopRequireDefault"
+      ],
+      "marked": [],
+      "modules": {
+        "imports": [
+          {
+            "source": "express",
+            "imported": [
+              "default"
+            ],
+            "specifiers": [
+              {
+                "kind": "named",
+                "imported": "default",
+                "local": "express"
+              }
+            ]
+          },
+          {
+            "source": "kraken-js",
+            "imported": [
+              "default"
+            ],
+            "specifiers": [
+              {
+                "kind": "named",
+                "imported": "default",
+                "local": "kraken"
+              }
+            ]
+          }
+        ],
+        "exports": {
+          "exported": [],
+          "specifiers": []
+        }
+      }
+    },
+    "options": {
+      "filename": "/home/badrouch/Bureau/front-ends/react/redux-react-router-email-client-master/server/app.js",
+      "filenameRelative": "/home/badrouch/Bureau/front-ends/react/redux-react-router-email-client-master/server/app.js",
+      "env": {},
+      "retainLines": false,
+      "highlightCode": true,
+      "suppressDeprecationMessages": false,
+      "presets": [],
+      "plugins": [
+        [
+          [],
+          {
+            "loose": false,
+            "spec": false
+          }
+        ],
+        [
+          [],
+          null
+        ],
+        [
+          [],
+          null
+        ],
+        [
+          [],
+          {
+            "spec": false
+          }
+        ],
+        [
+          [],
+          null
+        ],
+        [
+          [],
+          {
+            "loose": false
+          }
+        ],
+        [
+          [],
+          null
+        ],
+        [
+          [],
+          null
+        ],
+        [
+          [],
+          null
+        ],
+        [
+          [],
+          {
+            "loose": false
+          }
+        ],
+        [
+          [],
+          {
+            "loose": false
+          }
+        ],
+        [
+          [],
+          null
+        ],
+        [
+          [],
+          null
+        ],
+        [
+          [],
+          null
+        ],
+        [
+          [],
+          {
+            "loose": false
+          }
+        ],
+        [
+          [],
+          null
+        ],
+        [
+          [],
+          {
+            "loose": false
+          }
+        ],
+        [
+          [],
+          null
+        ],
+        [
+          [],
+          null
+        ],
+        [
+          [],
+          {
+            "loose": false
+          }
+        ],
+        [
+          [],
+          {
+            "async": false,
+            "asyncGenerators": false
+          }
+        ]
+      ],
+      "ignore": [],
+      "code": true,
+      "metadata": true,
+      "ast": false,
+      "comments": true,
+      "compact": "auto",
+      "minified": false,
+      "sourceMaps": "both",
+      "sourceMapTarget": "app.js",
+      "sourceFileName": "app.js",
+      "sourceRoot": "/home/badrouch/Bureau/front-ends/react/redux-react-router-email-client-master/server",
+      "babelrc": false,
+      "sourceType": "module",
+      "moduleRoot": "/home/badrouch/Bureau/front-ends/react/redux-react-router-email-client-master/server",
+      "moduleIds": false,
+      "passPerPreset": false,
+      "parserOpts": false,
+      "generatorOpts": false,
+      "basename": "app"
+    },
+    "ignored": false,
+    "code": "'use strict';\n\nvar _express = require('express');\n\nvar _express2 = _interopRequireDefault(_express);\n\nvar _krakenJs = require('kraken-js');\n\nvar _krakenJs2 = _interopRequireDefault(_krakenJs);\n\nfunction _interopRequireDefault(obj) { return obj && obj.__esModule ? obj : { default: obj }; }\n\nvar app = (0, _express2.default)();\napp.use((0, _krakenJs2.default)());\napp.listen(3000);\n//# sourceMappingURL=data:application/json;charset=utf-8;base64,eyJ2ZXJzaW9uIjozLCJzb3VyY2VzIjpbImFwcC5qcyJdLCJuYW1lcyI6WyJhcHAiLCJ1c2UiLCJsaXN0ZW4iXSwibWFwcGluZ3MiOiI7O0FBQUE7Ozs7QUFDQTs7Ozs7O0FBRUEsSUFBTUEsTUFBTSx3QkFBWjtBQUNBQSxJQUFJQyxHQUFKLENBQVEseUJBQVI7QUFDQUQsSUFBSUUsTUFBSixDQUFXLElBQVgiLCJmaWxlIjoiYXBwLmpzIiwic291cmNlUm9vdCI6Ii9ob21lL2JhZHJvdWNoL0J1cmVhdS9mcm9udC1lbmRzL3JlYWN0L3JlZHV4LXJlYWN0LXJvdXRlci1lbWFpbC1jbGllbnQtbWFzdGVyL3NlcnZlciIsInNvdXJjZXNDb250ZW50IjpbImltcG9ydCBleHByZXNzIGZyb20gJ2V4cHJlc3MnO1xuaW1wb3J0IGtyYWtlbiBmcm9tICdrcmFrZW4tanMnO1xuXG5jb25zdCBhcHAgPSBleHByZXNzKCk7IFxuYXBwLnVzZShrcmFrZW4oKSk7XG5hcHAubGlzdGVuKDMwMDApO1xuIl19",
+    "ast": null,
+    "map": {
+      "version": 3,
+      "sources": [
+        "app.js"
+      ],
+      "names": [
+        "app",
+        "use",
+        "listen"
+      ],
+      "mappings": ";;AAAA;;;;AACA;;;;;;AAEA,IAAMA,MAAM,wBAAZ;AACAA,IAAIC,GAAJ,CAAQ,yBAAR;AACAD,IAAIE,MAAJ,CAAW,IAAX",
+      "file": "app.js",
+      "sourceRoot": "/home/badrouch/Bureau/front-ends/react/redux-react-router-email-client-master/server",
+      "sourcesContent": [
+        "import express from 'express';\nimport kraken from 'kraken-js';\n\nconst app = express(); \napp.use(kraken());\napp.listen(3000);\n"
+      ]
+    },
+    "mtime": 1452190429000
+  },
+  "{\"filename\":\"/home/badrouch/Bureau/front-ends/react/redux-react-router-email-client-master/server/couchapp/load.js\",\"env\":{},\"retainLines\":false,\"highlightCode\":true,\"suppressDeprecationMessages\":false,\"presets\":[],\"plugins\":[[[],{\"loose\":false,\"spec\":false}],[[],null],[[],null],[[],{\"spec\":false}],[[],null],[[],{\"loose\":false}],[[],null],[[],null],[[],null],[[],{\"loose\":false}],[[],{\"loose\":false}],[[],null],[[],null],[[],null],[[],{\"loose\":false}],[[],null],[[],{\"loose\":false}],[[],null],[[],null],[[],{\"loose\":false}],[[],{\"async\":false,\"asyncGenerators\":false}]],\"ignore\":[],\"code\":true,\"metadata\":true,\"ast\":true,\"comments\":true,\"compact\":\"auto\",\"minified\":false,\"sourceRoot\":\"/home/badrouch/Bureau/front-ends/react/redux-react-router-email-client-master/server/couchapp\",\"babelrc\":true,\"sourceType\":\"module\",\"moduleIds\":false,\"passPerPreset\":false,\"parserOpts\":false,\"generatorOpts\":false}:6.26.3": {
+    "metadata": {
+      "usedHelpers": [
+        "interopRequireDefault"
+      ],
+      "marked": [],
+      "modules": {
+        "imports": [
+          {
+            "source": "./loadDocs",
+            "imported": [
+              "default"
+            ],
+            "specifiers": [
+              {
+                "kind": "named",
+                "imported": "default",
+                "local": "loadDocs"
+              }
+            ]
+          },
+          {
+            "source": "./loadViews",
+            "imported": [
+              "default"
+            ],
+            "specifiers": [
+              {
+                "kind": "named",
+                "imported": "default",
+                "local": "loadViews"
+              }
+            ]
+          }
+        ],
+        "exports": {
+          "exported": [],
+          "specifiers": []
+        }
+      }
+    },
+    "options": {
+      "filename": "/home/badrouch/Bureau/front-ends/react/redux-react-router-email-client-master/server/couchapp/load.js",
+      "filenameRelative": "/home/badrouch/Bureau/front-ends/react/redux-react-router-email-client-master/server/couchapp/load.js",
+      "env": {},
+      "retainLines": false,
+      "highlightCode": true,
+      "suppressDeprecationMessages": false,
+      "presets": [],
+      "plugins": [
+        [
+          [],
+          {
+            "loose": false,
+            "spec": false
+          }
+        ],
+        [
+          [],
+          null
+        ],
+        [
+          [],
+          null
+        ],
+        [
+          [],
+          {
+            "spec": false
+          }
+        ],
+        [
+          [],
+          null
+        ],
+        [
+          [],
+          {
+            "loose": false
+          }
+        ],
+        [
+          [],
+          null
+        ],
+        [
+          [],
+          null
+        ],
+        [
+          [],
+          null
+        ],
+        [
+          [],
+          {
+            "loose": false
+          }
+        ],
+        [
+          [],
+          {
+            "loose": false
+          }
+        ],
+        [
+          [],
+          null
+        ],
+        [
+          [],
+          null
+        ],
+        [
+          [],
+          null
+        ],
+        [
+          [],
+          {
+            "loose": false
+          }
+        ],
+        [
+          [],
+          null
+        ],
+        [
+          [],
+          {
+            "loose": false
+          }
+        ],
+        [
+          [],
+          null
+        ],
+        [
+          [],
+          null
+        ],
+        [
+          [],
+          {
+            "loose": false
+          }
+        ],
+        [
+          [],
+          {
+            "async": false,
+            "asyncGenerators": false
+          }
+        ]
+      ],
+      "ignore": [],
+      "code": true,
+      "metadata": true,
+      "ast": false,
+      "comments": true,
+      "compact": "auto",
+      "minified": false,
+      "sourceMaps": "both",
+      "sourceMapTarget": "load.js",
+      "sourceFileName": "load.js",
+      "sourceRoot": "/home/badrouch/Bureau/front-ends/react/redux-react-router-email-client-master/server/couchapp",
+      "babelrc": false,
+      "sourceType": "module",
+      "moduleRoot": "/home/badrouch/Bureau/front-ends/react/redux-react-router-email-client-master/server/couchapp",
+      "moduleIds": false,
+      "passPerPreset": false,
+      "parserOpts": false,
+      "generatorOpts": false,
+      "basename": "load"
+    },
+    "ignored": false,
+    "code": "'use strict';\n\nvar _loadDocs = require('./loadDocs');\n\nvar _loadDocs2 = _interopRequireDefault(_loadDocs);\n\nvar _loadViews = require('./loadViews');\n\nvar _loadViews2 = _interopRequireDefault(_loadViews);\n\nfunction _interopRequireDefault(obj) { return obj && obj.__esModule ? obj : { default: obj }; }\n\n(0, _loadDocs2.default)().then(_loadViews2.default).catch(function (error) {\n  process.stderr.write(error.stack);\n  process.exit(1);\n});\n//# sourceMappingURL=data:application/json;charset=utf-8;base64,eyJ2ZXJzaW9uIjozLCJzb3VyY2VzIjpbImxvYWQuanMiXSwibmFtZXMiOlsidGhlbiIsImxvYWRWaWV3cyIsImNhdGNoIiwiZXJyb3IiLCJwcm9jZXNzIiwic3RkZXJyIiwid3JpdGUiLCJzdGFjayIsImV4aXQiXSwibWFwcGluZ3MiOiI7O0FBQUE7Ozs7QUFDQTs7Ozs7O0FBRUEsMEJBQ0NBLElBREQsQ0FDTUMsbUJBRE4sRUFFQ0MsS0FGRCxDQUVPLFVBQUNDLEtBQUQsRUFBVztBQUNoQkMsVUFBUUMsTUFBUixDQUFlQyxLQUFmLENBQXFCSCxNQUFNSSxLQUEzQjtBQUNBSCxVQUFRSSxJQUFSLENBQWEsQ0FBYjtBQUNELENBTEQiLCJmaWxlIjoibG9hZC5qcyIsInNvdXJjZVJvb3QiOiIvaG9tZS9iYWRyb3VjaC9CdXJlYXUvZnJvbnQtZW5kcy9yZWFjdC9yZWR1eC1yZWFjdC1yb3V0ZXItZW1haWwtY2xpZW50LW1hc3Rlci9zZXJ2ZXIvY291Y2hhcHAiLCJzb3VyY2VzQ29udGVudCI6WyJpbXBvcnQgbG9hZERvY3MgZnJvbSAnLi9sb2FkRG9jcyc7XG5pbXBvcnQgbG9hZFZpZXdzIGZyb20gJy4vbG9hZFZpZXdzJztcblxubG9hZERvY3MoKVxuLnRoZW4obG9hZFZpZXdzKVxuLmNhdGNoKChlcnJvcikgPT4ge1xuICBwcm9jZXNzLnN0ZGVyci53cml0ZShlcnJvci5zdGFjayk7XG4gIHByb2Nlc3MuZXhpdCgxKTtcbn0pXG5cbiJdfQ==",
+    "ast": null,
+    "map": {
+      "version": 3,
+      "sources": [
+        "load.js"
+      ],
+      "names": [
+        "then",
+        "loadViews",
+        "catch",
+        "error",
+        "process",
+        "stderr",
+        "write",
+        "stack",
+        "exit"
+      ],
+      "mappings": ";;AAAA;;;;AACA;;;;;;AAEA,0BACCA,IADD,CACMC,mBADN,EAECC,KAFD,CAEO,UAACC,KAAD,EAAW;AAChBC,UAAQC,MAAR,CAAeC,KAAf,CAAqBH,MAAMI,KAA3B;AACAH,UAAQI,IAAR,CAAa,CAAb;AACD,CALD",
+      "file": "load.js",
+      "sourceRoot": "/home/badrouch/Bureau/front-ends/react/redux-react-router-email-client-master/server/couchapp",
+      "sourcesContent": [
+        "import loadDocs from './loadDocs';\nimport loadViews from './loadViews';\n\nloadDocs()\n.then(loadViews)\n.catch((error) => {\n  process.stderr.write(error.stack);\n  process.exit(1);\n})\n\n"
+      ]
+    },
+    "mtime": 1452190429000
+  },
+  "{\"filename\":\"/home/badrouch/Bureau/front-ends/react/redux-react-router-email-client-master/server/couchapp/loadDocs.js\",\"env\":{},\"retainLines\":false,\"highlightCode\":true,\"suppressDeprecationMessages\":false,\"presets\":[],\"plugins\":[[[],{\"loose\":false,\"spec\":false}],[[],null],[[],null],[[],{\"spec\":false}],[[],null],[[],{\"loose\":false}],[[],null],[[],null],[[],null],[[],{\"loose\":false}],[[],{\"loose\":false}],[[],null],[[],null],[[],null],[[],{\"loose\":false}],[[],null],[[],{\"loose\":false}],[[],null],[[],null],[[],{\"loose\":false}],[[],{\"async\":false,\"asyncGenerators\":false}]],\"ignore\":[],\"code\":true,\"metadata\":true,\"ast\":true,\"comments\":true,\"compact\":\"auto\",\"minified\":false,\"sourceRoot\":\"/home/badrouch/Bureau/front-ends/react/redux-react-router-email-client-master/server/couchapp\",\"babelrc\":true,\"sourceType\":\"module\",\"moduleIds\":false,\"passPerPreset\":false,\"parserOpts\":false,\"generatorOpts\":false}:6.26.3": {
+    "metadata": {
+      "usedHelpers": [
+        "interopRequireWildcard",
+        "interopRequireDefault"
+      ],
+      "marked": [],
+      "modules": {
+        "imports": [
+          {
+            "source": "../lib/db",
+            "imported": [
+              "*"
+            ],
+            "specifiers": [
+              {
+                "kind": "namespace",
+                "local": "db"
+              }
+            ]
+          },
+          {
+            "source": "../fixtures/documents",
+            "imported": [
+              "default"
+            ],
+            "specifiers": [
+              {
+                "kind": "named",
+                "imported": "default",
+                "local": "docs"
+              }
+            ]
+          }
+        ],
+        "exports": {
+          "exported": [],
+          "specifiers": []
+        }
+      }
+    },
+    "options": {
+      "filename": "/home/badrouch/Bureau/front-ends/react/redux-react-router-email-client-master/server/couchapp/loadDocs.js",
+      "filenameRelative": "/home/badrouch/Bureau/front-ends/react/redux-react-router-email-client-master/server/couchapp/loadDocs.js",
+      "env": {},
+      "retainLines": false,
+      "highlightCode": true,
+      "suppressDeprecationMessages": false,
+      "presets": [],
+      "plugins": [
+        [
+          [],
+          {
+            "loose": false,
+            "spec": false
+          }
+        ],
+        [
+          [],
+          null
+        ],
+        [
+          [],
+          null
+        ],
+        [
+          [],
+          {
+            "spec": false
+          }
+        ],
+        [
+          [],
+          null
+        ],
+        [
+          [],
+          {
+            "loose": false
+          }
+        ],
+        [
+          [],
+          null
+        ],
+        [
+          [],
+          null
+        ],
+        [
+          [],
+          null
+        ],
+        [
+          [],
+          {
+            "loose": false
+          }
+        ],
+        [
+          [],
+          {
+            "loose": false
+          }
+        ],
+        [
+          [],
+          null
+        ],
+        [
+          [],
+          null
+        ],
+        [
+          [],
+          null
+        ],
+        [
+          [],
+          {
+            "loose": false
+          }
+        ],
+        [
+          [],
+          null
+        ],
+        [
+          [],
+          {
+            "loose": false
+          }
+        ],
+        [
+          [],
+          null
+        ],
+        [
+          [],
+          null
+        ],
+        [
+          [],
+          {
+            "loose": false
+          }
+        ],
+        [
+          [],
+          {
+            "async": false,
+            "asyncGenerators": false
+          }
+        ]
+      ],
+      "ignore": [],
+      "code": true,
+      "metadata": true,
+      "ast": false,
+      "comments": true,
+      "compact": "auto",
+      "minified": false,
+      "sourceMaps": "both",
+      "sourceMapTarget": "loadDocs.js",
+      "sourceFileName": "loadDocs.js",
+      "sourceRoot": "/home/badrouch/Bureau/front-ends/react/redux-react-router-email-client-master/server/couchapp",
+      "babelrc": false,
+      "sourceType": "module",
+      "moduleRoot": "/home/badrouch/Bureau/front-ends/react/redux-react-router-email-client-master/server/couchapp",
+      "moduleIds": false,
+      "passPerPreset": false,
+      "parserOpts": false,
+      "generatorOpts": false,
+      "basename": "loadDocs"
+    },
+    "ignored": false,
+    "code": "'use strict';\n\nvar _db = require('../lib/db');\n\nvar db = _interopRequireWildcard(_db);\n\nvar _documents = require('../fixtures/documents');\n\nvar _documents2 = _interopRequireDefault(_documents);\n\nfunction _interopRequireDefault(obj) { return obj && obj.__esModule ? obj : { default: obj }; }\n\nfunction _interopRequireWildcard(obj) { if (obj && obj.__esModule) { return obj; } else { var newObj = {}; if (obj != null) { for (var key in obj) { if (Object.prototype.hasOwnProperty.call(obj, key)) newObj[key] = obj[key]; } } newObj.default = obj; return newObj; } }\n\nvar bulkInsert = db.getDb().bulk;\n\nmodule.exports = function () {\n  return db.reset().then(function () {\n    return bulkInsert(_documents2.default);\n  });\n};\n//# sourceMappingURL=data:application/json;charset=utf-8;base64,eyJ2ZXJzaW9uIjozLCJzb3VyY2VzIjpbImxvYWREb2NzLmpzIl0sIm5hbWVzIjpbImRiIiwiYnVsa0luc2VydCIsImdldERiIiwiYnVsayIsIm1vZHVsZSIsImV4cG9ydHMiLCJyZXNldCIsInRoZW4iLCJkb2NzIl0sIm1hcHBpbmdzIjoiOztBQUFBOztJQUFZQSxFOztBQUNaOzs7Ozs7OztBQUVBLElBQU1DLGFBQWFELEdBQUdFLEtBQUgsR0FBV0MsSUFBOUI7O0FBRUFDLE9BQU9DLE9BQVAsR0FBaUIsWUFBTTtBQUNyQixTQUFPTCxHQUFHTSxLQUFILEdBQ05DLElBRE0sQ0FDRCxZQUFNO0FBQ1YsV0FBT04sV0FBV08sbUJBQVgsQ0FBUDtBQUNELEdBSE0sQ0FBUDtBQUlELENBTEQiLCJmaWxlIjoibG9hZERvY3MuanMiLCJzb3VyY2VSb290IjoiL2hvbWUvYmFkcm91Y2gvQnVyZWF1L2Zyb250LWVuZHMvcmVhY3QvcmVkdXgtcmVhY3Qtcm91dGVyLWVtYWlsLWNsaWVudC1tYXN0ZXIvc2VydmVyL2NvdWNoYXBwIiwic291cmNlc0NvbnRlbnQiOlsiaW1wb3J0ICogYXMgZGIgZnJvbSAnLi4vbGliL2RiJztcbmltcG9ydCBkb2NzIGZyb20gJy4uL2ZpeHR1cmVzL2RvY3VtZW50cyc7XG5cbmNvbnN0IGJ1bGtJbnNlcnQgPSBkYi5nZXREYigpLmJ1bGs7XG5cbm1vZHVsZS5leHBvcnRzID0gKCkgPT4ge1xuICByZXR1cm4gZGIucmVzZXQoKVxuICAudGhlbigoKSA9PiB7XG4gICAgcmV0dXJuIGJ1bGtJbnNlcnQoZG9jcylcbiAgfSlcbn07XG4iXX0=",
+    "ast": null,
+    "map": {
+      "version": 3,
+      "sources": [
+        "loadDocs.js"
+      ],
+      "names": [
+        "db",
+        "bulkInsert",
+        "getDb",
+        "bulk",
+        "module",
+        "exports",
+        "reset",
+        "then",
+        "docs"
+      ],
+      "mappings": ";;AAAA;;IAAYA,E;;AACZ;;;;;;;;AAEA,IAAMC,aAAaD,GAAGE,KAAH,GAAWC,IAA9B;;AAEAC,OAAOC,OAAP,GAAiB,YAAM;AACrB,SAAOL,GAAGM,KAAH,GACNC,IADM,CACD,YAAM;AACV,WAAON,WAAWO,mBAAX,CAAP;AACD,GAHM,CAAP;AAID,CALD",
+      "file": "loadDocs.js",
+      "sourceRoot": "/home/badrouch/Bureau/front-ends/react/redux-react-router-email-client-master/server/couchapp",
+      "sourcesContent": [
+        "import * as db from '../lib/db';\nimport docs from '../fixtures/documents';\n\nconst bulkInsert = db.getDb().bulk;\n\nmodule.exports = () => {\n  return db.reset()\n  .then(() => {\n    return bulkInsert(docs)\n  })\n};\n"
+      ]
+    },
+    "mtime": 1452190429000
+  },
+  "{\"filename\":\"/home/badrouch/Bureau/front-ends/react/redux-react-router-email-client-master/server/lib/db.js\",\"env\":{},\"retainLines\":false,\"highlightCode\":true,\"suppressDeprecationMessages\":false,\"presets\":[],\"plugins\":[[[],{\"loose\":false,\"spec\":false}],[[],null],[[],null],[[],{\"spec\":false}],[[],null],[[],{\"loose\":false}],[[],null],[[],null],[[],null],[[],{\"loose\":false}],[[],{\"loose\":false}],[[],null],[[],null],[[],null],[[],{\"loose\":false}],[[],null],[[],{\"loose\":false}],[[],null],[[],null],[[],{\"loose\":false}],[[],{\"async\":false,\"asyncGenerators\":false}]],\"ignore\":[],\"code\":true,\"metadata\":true,\"ast\":true,\"comments\":true,\"compact\":\"auto\",\"minified\":false,\"sourceRoot\":\"/home/badrouch/Bureau/front-ends/react/redux-react-router-email-client-master/server/lib\",\"babelrc\":true,\"sourceType\":\"module\",\"moduleIds\":false,\"passPerPreset\":false,\"parserOpts\":false,\"generatorOpts\":false}:6.26.3": {
+    "metadata": {
+      "usedHelpers": [
+        "interopRequireDefault"
+      ],
+      "marked": [],
+      "modules": {
+        "imports": [
+          {
+            "source": "bluebird",
+            "imported": [
+              "default"
+            ],
+            "specifiers": [
+              {
+                "kind": "named",
+                "imported": "default",
+                "local": "Promise"
+              }
+            ]
+          },
+          {
+            "source": "nano",
+            "imported": [
+              "default"
+            ],
+            "specifiers": [
+              {
+                "kind": "named",
+                "imported": "default",
+                "local": "Nano"
+              }
+            ]
+          },
+          {
+            "source": "../config/dbConfig",
+            "imported": [
+              "default"
+            ],
+            "specifiers": [
+              {
+                "kind": "named",
+                "imported": "default",
+                "local": "config"
+              }
+            ]
+          }
+        ],
+        "exports": {
+          "exported": [
+            "createDb",
+            "destroyDb",
+            "reset",
+            "getDb",
+            "get",
+            "findBy",
+            "save",
+            "update",
+            "destroy",
+            "prepareView"
+          ],
+          "specifiers": [
+            {
+              "kind": "local",
+              "local": "createDb",
+              "exported": "createDb"
+            },
+            {
+              "kind": "local",
+              "local": "destroyDb",
+              "exported": "destroyDb"
+            },
+            {
+              "kind": "local",
+              "local": "reset",
+              "exported": "reset"
+            },
+            {
+              "kind": "local",
+              "local": "getDb",
+              "exported": "getDb"
+            },
+            {
+              "kind": "local",
+              "local": "get",
+              "exported": "get"
+            },
+            {
+              "kind": "local",
+              "local": "findBy",
+              "exported": "findBy"
+            },
+            {
+              "kind": "local",
+              "local": "save",
+              "exported": "save"
+            },
+            {
+              "kind": "local",
+              "local": "update",
+              "exported": "update"
+            },
+            {
+              "kind": "local",
+              "local": "destroy",
+              "exported": "destroy"
+            },
+            {
+              "kind": "local",
+              "local": "prepareView",
+              "exported": "prepareView"
+            }
+          ]
+        }
+      }
+    },
+    "options": {
+      "filename": "/home/badrouch/Bureau/front-ends/react/redux-react-router-email-client-master/server/lib/db.js",
+      "filenameRelative": "/home/badrouch/Bureau/front-ends/react/redux-react-router-email-client-master/server/lib/db.js",
+      "env": {},
+      "retainLines": false,
+      "highlightCode": true,
+      "suppressDeprecationMessages": false,
+      "presets": [],
+      "plugins": [
+        [
+          [],
+          {
+            "loose": false,
+            "spec": false
+          }
+        ],
+        [
+          [],
+          null
+        ],
+        [
+          [],
+          null
+        ],
+        [
+          [],
+          {
+            "spec": false
+          }
+        ],
+        [
+          [],
+          null
+        ],
+        [
+          [],
+          {
+            "loose": false
+          }
+        ],
+        [
+          [],
+          null
+        ],
+        [
+          [],
+          null
+        ],
+        [
+          [],
+          null
+        ],
+        [
+          [],
+          {
+            "loose": false
+          }
+        ],
+        [
+          [],
+          {
+            "loose": false
+          }
+        ],
+        [
+          [],
+          null
+        ],
+        [
+          [],
+          null
+        ],
+        [
+          [],
+          null
+        ],
+        [
+          [],
+          {
+            "loose": false
+          }
+        ],
+        [
+          [],
+          null
+        ],
+        [
+          [],
+          {
+            "loose": false
+          }
+        ],
+        [
+          [],
+          null
+        ],
+        [
+          [],
+          null
+        ],
+        [
+          [],
+          {
+            "loose": false
+          }
+        ],
+        [
+          [],
+          {
+            "async": false,
+            "asyncGenerators": false
+          }
+        ]
+      ],
+      "ignore": [],
+      "code": true,
+      "metadata": true,
+      "ast": false,
+      "comments": true,
+      "compact": "auto",
+      "minified": false,
+      "sourceMaps": "both",
+      "sourceMapTarget": "db.js",
+      "sourceFileName": "db.js",
+      "sourceRoot": "/home/badrouch/Bureau/front-ends/react/redux-react-router-email-client-master/server/lib",
+      "babelrc": false,
+      "sourceType": "module",
+      "moduleRoot": "/home/badrouch/Bureau/front-ends/react/redux-react-router-email-client-master/server/lib",
+      "moduleIds": false,
+      "passPerPreset": false,
+      "parserOpts": false,
+      "generatorOpts": false,
+      "basename": "db"
+    },
+    "ignored": false,
+    "code": "'use strict';\n\nObject.defineProperty(exports, \"__esModule\", {\n  value: true\n});\nexports.prepareView = exports.destroy = exports.update = exports.save = exports.findBy = exports.get = exports.getDb = exports.reset = exports.destroyDb = exports.createDb = undefined;\n\nvar _bluebird = require('bluebird');\n\nvar _bluebird2 = _interopRequireDefault(_bluebird);\n\nvar _nano = require('nano');\n\nvar _nano2 = _interopRequireDefault(_nano);\n\nvar _dbConfig = require('../config/dbConfig');\n\nvar _dbConfig2 = _interopRequireDefault(_dbConfig);\n\nfunction _interopRequireDefault(obj) { return obj && obj.__esModule ? obj : { default: obj }; }\n\nvar url = 'http://' + _dbConfig2.default.user + ':' + _dbConfig2.default.pass + '@' + _dbConfig2.default.host + ':' + _dbConfig2.default.port;\nvar nano = (0, _nano2.default)(url);\nvar dbName = _dbConfig2.default.name;\nvar db = _bluebird2.default.promisifyAll(nano.db.use(dbName));\n\nvar createDb = exports.createDb = function createDb() {\n  return _bluebird2.default.promisify(nano.db.create)(dbName);\n};\n\nvar destroyDb = exports.destroyDb = function destroyDb() {\n  return _bluebird2.default.promisify(nano.db.destroy)(dbName);\n};\n\nvar reset = exports.reset = function reset() {\n  return destroyDb().then(function () {\n    return createDb();\n  }).catch(function (error) {\n    if (error && error.reason == 'missing') return createDb(dbName);\n  });\n};\n\nvar getDb = exports.getDb = function getDb() {\n  return db;\n};\n\nvar get = exports.get = function get(key, revs_info) {\n  return db.getAsync(key, revs_info_obj);\n};\n\nvar findBy = exports.findBy = function findBy(design, view, params) {\n  return db.viewAsync(design, view, params);\n};\n\nvar save = exports.save = function save(doc) {\n  return db.insertAsync(doc);\n};\n\nvar update = exports.update = function update(key, updatedDoc) {\n  return get(key, {\n    revs_info: true\n  }).then(function () {\n    return updatedDoc;\n  }).then(function (updatedDoc) {\n    return save(updatedDoc);\n  });\n};\n\nvar destroy = exports.destroy = function destroy(id, rev) {\n  return db.destroyAsync(id, rev);\n};\n\nvar prepareView = exports.prepareView = function prepareView(view, viewName) {\n  return db.insertAsync(view, viewName);\n};\n//# sourceMappingURL=data:application/json;charset=utf-8;base64,eyJ2ZXJzaW9uIjozLCJzb3VyY2VzIjpbImRiLmpzIl0sIm5hbWVzIjpbInVybCIsImNvbmZpZyIsInVzZXIiLCJwYXNzIiwiaG9zdCIsInBvcnQiLCJuYW5vIiwiZGJOYW1lIiwibmFtZSIsImRiIiwiUHJvbWlzZSIsInByb21pc2lmeUFsbCIsInVzZSIsImNyZWF0ZURiIiwicHJvbWlzaWZ5IiwiY3JlYXRlIiwiZGVzdHJveURiIiwiZGVzdHJveSIsInJlc2V0IiwidGhlbiIsImNhdGNoIiwiZXJyb3IiLCJyZWFzb24iLCJnZXREYiIsImdldCIsImtleSIsInJldnNfaW5mbyIsImdldEFzeW5jIiwicmV2c19pbmZvX29iaiIsImZpbmRCeSIsImRlc2lnbiIsInZpZXciLCJwYXJhbXMiLCJ2aWV3QXN5bmMiLCJzYXZlIiwiZG9jIiwiaW5zZXJ0QXN5bmMiLCJ1cGRhdGUiLCJ1cGRhdGVkRG9jIiwiaWQiLCJyZXYiLCJkZXN0cm95QXN5bmMiLCJwcmVwYXJlVmlldyIsInZpZXdOYW1lIl0sIm1hcHBpbmdzIjoiOzs7Ozs7O0FBQUE7Ozs7QUFDQTs7OztBQUNBOzs7Ozs7QUFFQSxJQUFNQSxrQkFBZ0JDLG1CQUFPQyxJQUF2QixTQUErQkQsbUJBQU9FLElBQXRDLFNBQThDRixtQkFBT0csSUFBckQsU0FBNkRILG1CQUFPSSxJQUExRTtBQUNBLElBQU1DLE9BQU8sb0JBQUtOLEdBQUwsQ0FBYjtBQUNBLElBQU1PLFNBQVNOLG1CQUFPTyxJQUF0QjtBQUNBLElBQU1DLEtBQUtDLG1CQUFRQyxZQUFSLENBQXFCTCxLQUFLRyxFQUFMLENBQVFHLEdBQVIsQ0FBWUwsTUFBWixDQUFyQixDQUFYOztBQUVPLElBQU1NLDhCQUFXLFNBQVhBLFFBQVc7QUFBQSxTQUN0QkgsbUJBQVFJLFNBQVIsQ0FBa0JSLEtBQUtHLEVBQUwsQ0FBUU0sTUFBMUIsRUFBa0NSLE1BQWxDLENBRHNCO0FBQUEsQ0FBakI7O0FBSUEsSUFBTVMsZ0NBQVksU0FBWkEsU0FBWTtBQUFBLFNBQ3ZCTixtQkFBUUksU0FBUixDQUFrQlIsS0FBS0csRUFBTCxDQUFRUSxPQUExQixFQUFtQ1YsTUFBbkMsQ0FEdUI7QUFBQSxDQUFsQjs7QUFJQSxJQUFNVyx3QkFBUSxTQUFSQSxLQUFRO0FBQUEsU0FDbkJGLFlBQ0NHLElBREQsQ0FDTSxZQUFXO0FBQ2YsV0FBT04sVUFBUDtBQUNELEdBSEQsRUFJQ08sS0FKRCxDQUlPLFVBQVNDLEtBQVQsRUFBZ0I7QUFDckIsUUFBSUEsU0FBU0EsTUFBTUMsTUFBTixJQUFnQixTQUE3QixFQUNFLE9BQU9ULFNBQVNOLE1BQVQsQ0FBUDtBQUNILEdBUEQsQ0FEbUI7QUFBQSxDQUFkOztBQVdBLElBQU1nQix3QkFBUSxTQUFSQSxLQUFRO0FBQUEsU0FDbkJkLEVBRG1CO0FBQUEsQ0FBZDs7QUFJQSxJQUFNZSxvQkFBTSxTQUFOQSxHQUFNLENBQUNDLEdBQUQsRUFBTUMsU0FBTjtBQUFBLFNBQ2pCakIsR0FBR2tCLFFBQUgsQ0FBWUYsR0FBWixFQUFpQkcsYUFBakIsQ0FEaUI7QUFBQSxDQUFaOztBQUlBLElBQU1DLDBCQUFTLFNBQVRBLE1BQVMsQ0FBQ0MsTUFBRCxFQUFTQyxJQUFULEVBQWVDLE1BQWY7QUFBQSxTQUNwQnZCLEdBQUd3QixTQUFILENBQWFILE1BQWIsRUFBcUJDLElBQXJCLEVBQTJCQyxNQUEzQixDQURvQjtBQUFBLENBQWY7O0FBSUEsSUFBTUUsc0JBQU8sU0FBUEEsSUFBTyxDQUFDQyxHQUFEO0FBQUEsU0FDbEIxQixHQUFHMkIsV0FBSCxDQUFlRCxHQUFmLENBRGtCO0FBQUEsQ0FBYjs7QUFJQSxJQUFNRSwwQkFBUyxTQUFUQSxNQUFTLENBQUNaLEdBQUQsRUFBTWEsVUFBTjtBQUFBLFNBQ3BCZCxJQUFJQyxHQUFKLEVBQVM7QUFDUEMsZUFBVztBQURKLEdBQVQsRUFHQ1AsSUFIRCxDQUdNLFlBQVc7QUFDZixXQUFPbUIsVUFBUDtBQUNELEdBTEQsRUFNQ25CLElBTkQsQ0FNTSxVQUFTbUIsVUFBVCxFQUFxQjtBQUN6QixXQUFPSixLQUFLSSxVQUFMLENBQVA7QUFDRCxHQVJELENBRG9CO0FBQUEsQ0FBZjs7QUFZQSxJQUFNckIsNEJBQVUsU0FBVkEsT0FBVSxDQUFDc0IsRUFBRCxFQUFLQyxHQUFMO0FBQUEsU0FDckIvQixHQUFHZ0MsWUFBSCxDQUFnQkYsRUFBaEIsRUFBb0JDLEdBQXBCLENBRHFCO0FBQUEsQ0FBaEI7O0FBSUEsSUFBTUUsb0NBQWMsU0FBZEEsV0FBYyxDQUFDWCxJQUFELEVBQU9ZLFFBQVA7QUFBQSxTQUN6QmxDLEdBQUcyQixXQUFILENBQWVMLElBQWYsRUFBcUJZLFFBQXJCLENBRHlCO0FBQUEsQ0FBcEIiLCJmaWxlIjoiZGIuanMiLCJzb3VyY2VSb290IjoiL2hvbWUvYmFkcm91Y2gvQnVyZWF1L2Zyb250LWVuZHMvcmVhY3QvcmVkdXgtcmVhY3Qtcm91dGVyLWVtYWlsLWNsaWVudC1tYXN0ZXIvc2VydmVyL2xpYiIsInNvdXJjZXNDb250ZW50IjpbImltcG9ydCBQcm9taXNlIGZyb20gJ2JsdWViaXJkJztcbmltcG9ydCBOYW5vIGZyb20gJ25hbm8nO1xuaW1wb3J0IGNvbmZpZyBmcm9tICcuLi9jb25maWcvZGJDb25maWcnO1xuXG5jb25zdCB1cmwgPSBgaHR0cDovLyR7Y29uZmlnLnVzZXJ9OiR7Y29uZmlnLnBhc3N9QCR7Y29uZmlnLmhvc3R9OiR7Y29uZmlnLnBvcnR9YDtcbmNvbnN0IG5hbm8gPSBOYW5vKHVybCk7XG5jb25zdCBkYk5hbWUgPSBjb25maWcubmFtZTtcbmNvbnN0IGRiID0gUHJvbWlzZS5wcm9taXNpZnlBbGwobmFuby5kYi51c2UoZGJOYW1lKSk7XG5cbmV4cG9ydCBjb25zdCBjcmVhdGVEYiA9ICgpID0+IChcbiAgUHJvbWlzZS5wcm9taXNpZnkobmFuby5kYi5jcmVhdGUpKGRiTmFtZSlcbik7XG5cbmV4cG9ydCBjb25zdCBkZXN0cm95RGIgPSAoKSA9PiAoXG4gIFByb21pc2UucHJvbWlzaWZ5KG5hbm8uZGIuZGVzdHJveSkoZGJOYW1lKVxuKTtcblxuZXhwb3J0IGNvbnN0IHJlc2V0ID0gKCkgPT4gKFxuICBkZXN0cm95RGIoKVxuICAudGhlbihmdW5jdGlvbigpIHtcbiAgICByZXR1cm4gY3JlYXRlRGIoKTtcbiAgfSlcbiAgLmNhdGNoKGZ1bmN0aW9uKGVycm9yKSB7XG4gICAgaWYgKGVycm9yICYmIGVycm9yLnJlYXNvbiA9PSAnbWlzc2luZycpXG4gICAgICByZXR1cm4gY3JlYXRlRGIoZGJOYW1lKTtcbiAgfSlcbik7XG5cbmV4cG9ydCBjb25zdCBnZXREYiA9ICgpID0+IChcbiAgZGJcbik7XG5cbmV4cG9ydCBjb25zdCBnZXQgPSAoa2V5LCByZXZzX2luZm8pID0+IChcbiAgZGIuZ2V0QXN5bmMoa2V5LCByZXZzX2luZm9fb2JqKVxuKTtcblxuZXhwb3J0IGNvbnN0IGZpbmRCeSA9IChkZXNpZ24sIHZpZXcsIHBhcmFtcykgPT4gKFxuICBkYi52aWV3QXN5bmMoZGVzaWduLCB2aWV3LCBwYXJhbXMpXG4pO1xuXG5leHBvcnQgY29uc3Qgc2F2ZSA9IChkb2MpID0+IChcbiAgZGIuaW5zZXJ0QXN5bmMoZG9jKVxuKTtcblxuZXhwb3J0IGNvbnN0IHVwZGF0ZSA9IChrZXksIHVwZGF0ZWREb2MpID0+IChcbiAgZ2V0KGtleSwge1xuICAgIHJldnNfaW5mbzogdHJ1ZVxuICB9KVxuICAudGhlbihmdW5jdGlvbigpIHtcbiAgICByZXR1cm4gdXBkYXRlZERvYztcbiAgfSlcbiAgLnRoZW4oZnVuY3Rpb24odXBkYXRlZERvYykge1xuICAgIHJldHVybiBzYXZlKHVwZGF0ZWREb2MpO1xuICB9KVxuKTtcblxuZXhwb3J0IGNvbnN0IGRlc3Ryb3kgPSAoaWQsIHJldikgPT4gKFxuICBkYi5kZXN0cm95QXN5bmMoaWQsIHJldilcbik7XG5cbmV4cG9ydCBjb25zdCBwcmVwYXJlVmlldyA9ICh2aWV3LCB2aWV3TmFtZSkgPT4gKFxuICBkYi5pbnNlcnRBc3luYyh2aWV3LCB2aWV3TmFtZSlcbik7XG4iXX0=",
+    "ast": null,
+    "map": {
+      "version": 3,
+      "sources": [
+        "db.js"
+      ],
+      "names": [
+        "url",
+        "config",
+        "user",
+        "pass",
+        "host",
+        "port",
+        "nano",
+        "dbName",
+        "name",
+        "db",
+        "Promise",
+        "promisifyAll",
+        "use",
+        "createDb",
+        "promisify",
+        "create",
+        "destroyDb",
+        "destroy",
+        "reset",
+        "then",
+        "catch",
+        "error",
+        "reason",
+        "getDb",
+        "get",
+        "key",
+        "revs_info",
+        "getAsync",
+        "revs_info_obj",
+        "findBy",
+        "design",
+        "view",
+        "params",
+        "viewAsync",
+        "save",
+        "doc",
+        "insertAsync",
+        "update",
+        "updatedDoc",
+        "id",
+        "rev",
+        "destroyAsync",
+        "prepareView",
+        "viewName"
+      ],
+      "mappings": ";;;;;;;AAAA;;;;AACA;;;;AACA;;;;;;AAEA,IAAMA,kBAAgBC,mBAAOC,IAAvB,SAA+BD,mBAAOE,IAAtC,SAA8CF,mBAAOG,IAArD,SAA6DH,mBAAOI,IAA1E;AACA,IAAMC,OAAO,oBAAKN,GAAL,CAAb;AACA,IAAMO,SAASN,mBAAOO,IAAtB;AACA,IAAMC,KAAKC,mBAAQC,YAAR,CAAqBL,KAAKG,EAAL,CAAQG,GAAR,CAAYL,MAAZ,CAArB,CAAX;;AAEO,IAAMM,8BAAW,SAAXA,QAAW;AAAA,SACtBH,mBAAQI,SAAR,CAAkBR,KAAKG,EAAL,CAAQM,MAA1B,EAAkCR,MAAlC,CADsB;AAAA,CAAjB;;AAIA,IAAMS,gCAAY,SAAZA,SAAY;AAAA,SACvBN,mBAAQI,SAAR,CAAkBR,KAAKG,EAAL,CAAQQ,OAA1B,EAAmCV,MAAnC,CADuB;AAAA,CAAlB;;AAIA,IAAMW,wBAAQ,SAARA,KAAQ;AAAA,SACnBF,YACCG,IADD,CACM,YAAW;AACf,WAAON,UAAP;AACD,GAHD,EAICO,KAJD,CAIO,UAASC,KAAT,EAAgB;AACrB,QAAIA,SAASA,MAAMC,MAAN,IAAgB,SAA7B,EACE,OAAOT,SAASN,MAAT,CAAP;AACH,GAPD,CADmB;AAAA,CAAd;;AAWA,IAAMgB,wBAAQ,SAARA,KAAQ;AAAA,SACnBd,EADmB;AAAA,CAAd;;AAIA,IAAMe,oBAAM,SAANA,GAAM,CAACC,GAAD,EAAMC,SAAN;AAAA,SACjBjB,GAAGkB,QAAH,CAAYF,GAAZ,EAAiBG,aAAjB,CADiB;AAAA,CAAZ;;AAIA,IAAMC,0BAAS,SAATA,MAAS,CAACC,MAAD,EAASC,IAAT,EAAeC,MAAf;AAAA,SACpBvB,GAAGwB,SAAH,CAAaH,MAAb,EAAqBC,IAArB,EAA2BC,MAA3B,CADoB;AAAA,CAAf;;AAIA,IAAME,sBAAO,SAAPA,IAAO,CAACC,GAAD;AAAA,SAClB1B,GAAG2B,WAAH,CAAeD,GAAf,CADkB;AAAA,CAAb;;AAIA,IAAME,0BAAS,SAATA,MAAS,CAACZ,GAAD,EAAMa,UAAN;AAAA,SACpBd,IAAIC,GAAJ,EAAS;AACPC,eAAW;AADJ,GAAT,EAGCP,IAHD,CAGM,YAAW;AACf,WAAOmB,UAAP;AACD,GALD,EAMCnB,IAND,CAMM,UAASmB,UAAT,EAAqB;AACzB,WAAOJ,KAAKI,UAAL,CAAP;AACD,GARD,CADoB;AAAA,CAAf;;AAYA,IAAMrB,4BAAU,SAAVA,OAAU,CAACsB,EAAD,EAAKC,GAAL;AAAA,SACrB/B,GAAGgC,YAAH,CAAgBF,EAAhB,EAAoBC,GAApB,CADqB;AAAA,CAAhB;;AAIA,IAAME,oCAAc,SAAdA,WAAc,CAACX,IAAD,EAAOY,QAAP;AAAA,SACzBlC,GAAG2B,WAAH,CAAeL,IAAf,EAAqBY,QAArB,CADyB;AAAA,CAApB",
+      "file": "db.js",
+      "sourceRoot": "/home/badrouch/Bureau/front-ends/react/redux-react-router-email-client-master/server/lib",
+      "sourcesContent": [
+        "import Promise from 'bluebird';\nimport Nano from 'nano';\nimport config from '../config/dbConfig';\n\nconst url = `http://${config.user}:${config.pass}@${config.host}:${config.port}`;\nconst nano = Nano(url);\nconst dbName = config.name;\nconst db = Promise.promisifyAll(nano.db.use(dbName));\n\nexport const createDb = () => (\n  Promise.promisify(nano.db.create)(dbName)\n);\n\nexport const destroyDb = () => (\n  Promise.promisify(nano.db.destroy)(dbName)\n);\n\nexport const reset = () => (\n  destroyDb()\n  .then(function() {\n    return createDb();\n  })\n  .catch(function(error) {\n    if (error && error.reason == 'missing')\n      return createDb(dbName);\n  })\n);\n\nexport const getDb = () => (\n  db\n);\n\nexport const get = (key, revs_info) => (\n  db.getAsync(key, revs_info_obj)\n);\n\nexport const findBy = (design, view, params) => (\n  db.viewAsync(design, view, params)\n);\n\nexport const save = (doc) => (\n  db.insertAsync(doc)\n);\n\nexport const update = (key, updatedDoc) => (\n  get(key, {\n    revs_info: true\n  })\n  .then(function() {\n    return updatedDoc;\n  })\n  .then(function(updatedDoc) {\n    return save(updatedDoc);\n  })\n);\n\nexport const destroy = (id, rev) => (\n  db.destroyAsync(id, rev)\n);\n\nexport const prepareView = (view, viewName) => (\n  db.insertAsync(view, viewName)\n);\n"
+      ]
+    },
+    "mtime": 1452190429000
+  },
+  "{\"filename\":\"/home/badrouch/Bureau/front-ends/react/redux-react-router-email-client-master/server/config/dbConfig.js\",\"env\":{},\"retainLines\":false,\"highlightCode\":true,\"suppressDeprecationMessages\":false,\"presets\":[],\"plugins\":[[[],{\"loose\":false,\"spec\":false}],[[],null],[[],null],[[],{\"spec\":false}],[[],null],[[],{\"loose\":false}],[[],null],[[],null],[[],null],[[],{\"loose\":false}],[[],{\"loose\":false}],[[],null],[[],null],[[],null],[[],{\"loose\":false}],[[],null],[[],{\"loose\":false}],[[],null],[[],null],[[],{\"loose\":false}],[[],{\"async\":false,\"asyncGenerators\":false}]],\"ignore\":[],\"code\":true,\"metadata\":true,\"ast\":true,\"comments\":true,\"compact\":\"auto\",\"minified\":false,\"sourceRoot\":\"/home/badrouch/Bureau/front-ends/react/redux-react-router-email-client-master/server/config\",\"babelrc\":true,\"sourceType\":\"module\",\"moduleIds\":false,\"passPerPreset\":false,\"parserOpts\":false,\"generatorOpts\":false}:6.26.3": {
+    "metadata": {
+      "usedHelpers": [],
+      "marked": [],
+      "modules": {
+        "imports": [],
+        "exports": {
+          "exported": [],
+          "specifiers": []
+        }
+      }
+    },
+    "options": {
+      "filename": "/home/badrouch/Bureau/front-ends/react/redux-react-router-email-client-master/server/config/dbConfig.js",
+      "filenameRelative": "/home/badrouch/Bureau/front-ends/react/redux-react-router-email-client-master/server/config/dbConfig.js",
+      "env": {},
+      "retainLines": false,
+      "highlightCode": true,
+      "suppressDeprecationMessages": false,
+      "presets": [],
+      "plugins": [
+        [
+          [],
+          {
+            "loose": false,
+            "spec": false
+          }
+        ],
+        [
+          [],
+          null
+        ],
+        [
+          [],
+          null
+        ],
+        [
+          [],
+          {
+            "spec": false
+          }
+        ],
+        [
+          [],
+          null
+        ],
+        [
+          [],
+          {
+            "loose": false
+          }
+        ],
+        [
+          [],
+          null
+        ],
+        [
+          [],
+          null
+        ],
+        [
+          [],
+          null
+        ],
+        [
+          [],
+          {
+            "loose": false
+          }
+        ],
+        [
+          [],
+          {
+            "loose": false
+          }
+        ],
+        [
+          [],
+          null
+        ],
+        [
+          [],
+          null
+        ],
+        [
+          [],
+          null
+        ],
+        [
+          [],
+          {
+            "loose": false
+          }
+        ],
+        [
+          [],
+          null
+        ],
+        [
+          [],
+          {
+            "loose": false
+          }
+        ],
+        [
+          [],
+          null
+        ],
+        [
+          [],
+          null
+        ],
+        [
+          [],
+          {
+            "loose": false
+          }
+        ],
+        [
+          [],
+          {
+            "async": false,
+            "asyncGenerators": false
+          }
+        ]
+      ],
+      "ignore": [],
+      "code": true,
+      "metadata": true,
+      "ast": false,
+      "comments": true,
+      "compact": "auto",
+      "minified": false,
+      "sourceMaps": "both",
+      "sourceMapTarget": "dbConfig.js",
+      "sourceFileName": "dbConfig.js",
+      "sourceRoot": "/home/badrouch/Bureau/front-ends/react/redux-react-router-email-client-master/server/config",
+      "babelrc": false,
+      "sourceType": "module",
+      "moduleRoot": "/home/badrouch/Bureau/front-ends/react/redux-react-router-email-client-master/server/config",
+      "moduleIds": false,
+      "passPerPreset": false,
+      "parserOpts": false,
+      "generatorOpts": false,
+      "basename": "dbConfig"
+    },
+    "ignored": false,
+    "code": "'use strict';\n\nObject.defineProperty(exports, \"__esModule\", {\n  value: true\n});\nexports.default = {\n  user: 'admin',\n  pass: 'baderbadrouch15',\n  host: 'localhost',\n  port: '5984',\n  name: 'testing'\n};\n//# sourceMappingURL=data:application/json;charset=utf-8;base64,eyJ2ZXJzaW9uIjozLCJzb3VyY2VzIjpbImRiQ29uZmlnLmpzIl0sIm5hbWVzIjpbInVzZXIiLCJwYXNzIiwiaG9zdCIsInBvcnQiLCJuYW1lIl0sIm1hcHBpbmdzIjoiOzs7OztrQkFBZTtBQUNiQSxRQUFNLE9BRE87QUFFYkMsUUFBTSxpQkFGTztBQUdiQyxRQUFNLFdBSE87QUFJYkMsUUFBTSxNQUpPO0FBS2JDLFFBQU07QUFMTyxDIiwiZmlsZSI6ImRiQ29uZmlnLmpzIiwic291cmNlUm9vdCI6Ii9ob21lL2JhZHJvdWNoL0J1cmVhdS9mcm9udC1lbmRzL3JlYWN0L3JlZHV4LXJlYWN0LXJvdXRlci1lbWFpbC1jbGllbnQtbWFzdGVyL3NlcnZlci9jb25maWciLCJzb3VyY2VzQ29udGVudCI6WyJleHBvcnQgZGVmYXVsdCB7XG4gIHVzZXI6ICdhZG1pbicsXG4gIHBhc3M6ICdiYWRlcmJhZHJvdWNoMTUnLFxuICBob3N0OiAnbG9jYWxob3N0JyxcbiAgcG9ydDogJzU5ODQnLFxuICBuYW1lOiAndGVzdGluZydcbn07XG4iXX0=",
+    "ast": null,
+    "map": {
+      "version": 3,
+      "sources": [
+        "dbConfig.js"
+      ],
+      "names": [
+        "user",
+        "pass",
+        "host",
+        "port",
+        "name"
+      ],
+      "mappings": ";;;;;kBAAe;AACbA,QAAM,OADO;AAEbC,QAAM,iBAFO;AAGbC,QAAM,WAHO;AAIbC,QAAM,MAJO;AAKbC,QAAM;AALO,C",
+      "file": "dbConfig.js",
+      "sourceRoot": "/home/badrouch/Bureau/front-ends/react/redux-react-router-email-client-master/server/config",
+      "sourcesContent": [
+        "export default {\n  user: 'admin',\n  pass: 'baderbadrouch15',\n  host: 'localhost',\n  port: '5984',\n  name: 'testing'\n};\n"
+      ]
+    },
+    "mtime": 1618562964653
+  },
+  "{\"filename\":\"/home/badrouch/Bureau/front-ends/react/redux-react-router-email-client-master/server/fixtures/documents.js\",\"env\":{},\"retainLines\":false,\"highlightCode\":true,\"suppressDeprecationMessages\":false,\"presets\":[],\"plugins\":[[[],{\"loose\":false,\"spec\":false}],[[],null],[[],null],[[],{\"spec\":false}],[[],null],[[],{\"loose\":false}],[[],null],[[],null],[[],null],[[],{\"loose\":false}],[[],{\"loose\":false}],[[],null],[[],null],[[],null],[[],{\"loose\":false}],[[],null],[[],{\"loose\":false}],[[],null],[[],null],[[],{\"loose\":false}],[[],{\"async\":false,\"asyncGenerators\":false}]],\"ignore\":[],\"code\":true,\"metadata\":true,\"ast\":true,\"comments\":true,\"compact\":\"auto\",\"minified\":false,\"sourceRoot\":\"/home/badrouch/Bureau/front-ends/react/redux-react-router-email-client-master/server/fixtures\",\"babelrc\":true,\"sourceType\":\"module\",\"moduleIds\":false,\"passPerPreset\":false,\"parserOpts\":false,\"generatorOpts\":false}:6.26.3": {
+    "metadata": {
+      "usedHelpers": [],
+      "marked": [],
+      "modules": {
+        "imports": [],
+        "exports": {
+          "exported": [],
+          "specifiers": []
+        }
+      }
+    },
+    "options": {
+      "filename": "/home/badrouch/Bureau/front-ends/react/redux-react-router-email-client-master/server/fixtures/documents.js",
+      "filenameRelative": "/home/badrouch/Bureau/front-ends/react/redux-react-router-email-client-master/server/fixtures/documents.js",
+      "env": {},
+      "retainLines": false,
+      "highlightCode": true,
+      "suppressDeprecationMessages": false,
+      "presets": [],
+      "plugins": [
+        [
+          [],
+          {
+            "loose": false,
+            "spec": false
+          }
+        ],
+        [
+          [],
+          null
+        ],
+        [
+          [],
+          null
+        ],
+        [
+          [],
+          {
+            "spec": false
+          }
+        ],
+        [
+          [],
+          null
+        ],
+        [
+          [],
+          {
+            "loose": false
+          }
+        ],
+        [
+          [],
+          null
+        ],
+        [
+          [],
+          null
+        ],
+        [
+          [],
+          null
+        ],
+        [
+          [],
+          {
+            "loose": false
+          }
+        ],
+        [
+          [],
+          {
+            "loose": false
+          }
+        ],
+        [
+          [],
+          null
+        ],
+        [
+          [],
+          null
+        ],
+        [
+          [],
+          null
+        ],
+        [
+          [],
+          {
+            "loose": false
+          }
+        ],
+        [
+          [],
+          null
+        ],
+        [
+          [],
+          {
+            "loose": false
+          }
+        ],
+        [
+          [],
+          null
+        ],
+        [
+          [],
+          null
+        ],
+        [
+          [],
+          {
+            "loose": false
+          }
+        ],
+        [
+          [],
+          {
+            "async": false,
+            "asyncGenerators": false
+          }
+        ]
+      ],
+      "ignore": [],
+      "code": true,
+      "metadata": true,
+      "ast": false,
+      "comments": true,
+      "compact": "auto",
+      "minified": false,
+      "sourceMaps": "both",
+      "sourceMapTarget": "documents.js",
+      "sourceFileName": "documents.js",
+      "sourceRoot": "/home/badrouch/Bureau/front-ends/react/redux-react-router-email-client-master/server/fixtures",
+      "babelrc": false,
+      "sourceType": "module",
+      "moduleRoot": "/home/badrouch/Bureau/front-ends/react/redux-react-router-email-client-master/server/fixtures",
+      "moduleIds": false,
+      "passPerPreset": false,
+      "parserOpts": false,
+      "generatorOpts": false,
+      "basename": "documents"
+    },
+    "ignored": false,
+    "code": "\"use strict\";\n\nObject.defineProperty(exports, \"__esModule\", {\n  value: true\n});\nexports.default = {\n  \"docs\": [{\n    _id: 'cdtra',\n    thread_id: 2, //This is the id if it's part of some thread otherwise this property won't exist in document\n    message: {\n      \"html\": \"<p>Example HTML content</p>\",\n      \"text\": \"Example text content\",\n      \"subject\": \"example subject\",\n      \"from\": {\n        \"email\": \"aria@snake-eyes.com\",\n        avatar: \"https://avatars1.githubusercontent.com/u/2876?v=3&s=460\",\n        \"name\": \"Aria\"\n      },\n      \"unread\": false,\n      \"to\": [{\n        \"email\": \"ashok@snake-eyes.com\",\n        avatar: \"https://avatars3.githubusercontent.com/u/8316625?v=3&s=460\",\n        \"name\": \"Ashok\",\n        \"type\": \"to\"\n      }],\n      \"timestamp\": \"1000\",\n      \"headers\": {\n        \"Reply-To\": \"aria@snake-eyes.com\"\n      },\n      \"important\": false\n    },\n    type: \"message\"\n  }, {\n    _id: 'abcde',\n    thread_id: 2, //This is the id if it's part of some thread otherwise this property won't exist in document\n    message: {\n      \"html\": \"<h1>Example HTML reply</h1>\",\n      \"text\": \"Example reply\",\n      \"subject\": \"example subject\",\n      \"from\": {\n        \"email\": \"ashok@snake-eyes.com\",\n        avatar: \"https://avatars3.githubusercontent.com/u/8316625?v=3&s=460\",\n        \"name\": \"Ashok\"\n      },\n      \"unread\": true,\n      \"to\": [{\n        \"email\": \"aria@snake-eyes.com\",\n        avatar: \"https://avatars1.githubusercontent.com/u/2876?v=3&s=460\",\n        \"name\": \"Aria\",\n        \"type\": \"to\"\n      }],\n      \"timestamp\": \"1200\",\n      \"headers\": {\n        \"Reply-To\": \"ashok@snake-eyes.com\"\n      },\n      \"important\": false\n    },\n    type: \"message\"\n  }, {\n    _id: 'abcdp',\n    message: {\n      \"html\": \"<h1>Another Email</h1>\",\n      \"text\": \"Example text content\",\n      \"subject\": \"example subject\",\n      \"from\": {\n        \"email\": \"aria@snake-eyes.com\",\n        avatar: \"https://avatars1.githubusercontent.com/u/2876?v=3&s=460\",\n        \"name\": \"Aria\"\n      },\n      \"unread\": true,\n      \"to\": [{\n        \"email\": \"ashok@snake-eyes.com\",\n        avatar: \"https://avatars3.githubusercontent.com/u/8316625?v=3&s=460\",\n        \"name\": \"Ashok\",\n        \"type\": \"to\"\n      }],\n      \"timestamp\": \"1000\",\n      \"headers\": {\n        \"Reply-To\": \"aria@snake-eyes.com\"\n      },\n      \"important\": false\n    },\n    type: \"message\"\n  }, {\n    thread_id: 2, //This is the id if it's part of some thread otherwise this property won't exist in document\n    message: {\n      \"html\": \"<p>Example HTML content</p>\",\n      \"text\": \"Example text content\",\n      \"subject\": \"example subject\",\n      \"from\": {\n        \"email\": \"pete@snake-eyes.com\",\n        avatar: \"https://avatars0.githubusercontent.com/u/239742?v=3&s=460\",\n        \"name\": \"Pete\"\n      },\n      \"unread\": false,\n      \"to\": [{\n        \"email\": \"fishrock123@snake-eyes.com\",\n        avatar: \"https://avatars1.githubusercontent.com/u/1093990?v=3&s=400\",\n        \"name\": \"Jeremiah\",\n        \"type\": \"to\"\n      }],\n      \"timestamp\": \"1000\",\n      \"headers\": {\n        \"Reply-To\": \"pete@snake-eyes.com\"\n      },\n      \"important\": false\n    },\n    type: \"message\"\n  }, {\n    thread_id: 2, //This is the id if it's part of some thread otherwise this property won't exist in document\n    message: {\n      \"html\": \"<h1>Example HTML reply</h1>\",\n      \"text\": \"Example reply\",\n      \"subject\": \"example subject\",\n      \"from\": {\n        \"email\": \"fishrock123@snake-eyes.com\",\n        avatar: \"https://avatars1.githubusercontent.com/u/1093990?v=3&s=400\",\n        \"name\": \"Jeremiah\"\n      },\n      \"unread\": true,\n      \"to\": [{\n        \"email\": \"pete@snake-eyes.com\",\n        avatar: \"https://avatars0.githubusercontent.com/u/239742?v=3&s=460\",\n        \"name\": \"Pete\",\n        \"type\": \"to\"\n      }],\n      \"timestamp\": \"1200\",\n      \"headers\": {\n        \"Reply-To\": \"fishrock123@snake-eyes.com\"\n      },\n      \"important\": false\n    },\n    type: \"message\"\n  }, {\n    message: {\n      \"html\": \"<h1>Another Email</h1>\",\n      \"text\": \"Example text content\",\n      \"subject\": \"example subject\",\n      \"from\": {\n        \"email\": \"pete@snake-eyes.com\",\n        avatar: \"https://avatars0.githubusercontent.com/u/239742?v=3&s=460\",\n        \"name\": \"Pete\"\n      },\n      \"unread\": true,\n      \"to\": [{\n        \"email\": \"fishrock123@snake-eyes.com\",\n        avatar: \"https://avatars1.githubusercontent.com/u/1093990?v=3&s=400\",\n        \"name\": \"Jeremiah\",\n        \"type\": \"to\"\n      }],\n      \"timestamp\": \"1000\",\n      \"headers\": {\n        \"Reply-To\": \"pete@snake-eyes.com\"\n      },\n      \"important\": false\n    },\n    type: \"message\"\n  }, {\n    thread_id: 2, //This is the id if it's part of some thread otherwise this property won't exist in document\n    message: {\n      \"html\": \"<p>Example HTML content</p>\",\n      \"text\": \"Example text content\",\n      \"subject\": \"example subject\",\n      \"from\": {\n        \"email\": \"pete@snake-eyes.com\",\n        avatar: \"https://avatars0.githubusercontent.com/u/239742?v=3&s=460\",\n        \"name\": \"Pete\"\n      },\n      \"unread\": false,\n      \"to\": [{\n        \"email\": \"dan@snake-eyes.com\",\n        avatar: \"https://avatars0.githubusercontent.com/u/810438?v=3&s=460\",\n        \"name\": \"Dan\",\n        \"type\": \"to\"\n      }],\n      \"timestamp\": \"1000\",\n      \"headers\": {\n        \"Reply-To\": \"pete@snake-eyes.com\"\n      },\n      \"important\": false\n    },\n    type: \"message\"\n  }, {\n    thread_id: 2, //This is the id if it's part of some thread otherwise this property won't exist in document\n    message: {\n      \"html\": \"<h1>Example HTML reply</h1>\",\n      \"text\": \"Example reply\",\n      \"subject\": \"example subject\",\n      \"from\": {\n        \"email\": \"dan@snake-eyes.com\",\n        avatar: \"https://avatars0.githubusercontent.com/u/810438?v=3&s=460\",\n        \"name\": \"Dan\"\n      },\n      \"unread\": true,\n      \"to\": [{\n        \"email\": \"pete@snake-eyes.com\",\n        avatar: \"https://avatars0.githubusercontent.com/u/239742?v=3&s=460\",\n        \"name\": \"Pete\",\n        \"type\": \"to\"\n      }],\n      \"timestamp\": \"1200\",\n      \"headers\": {\n        \"Reply-To\": \"dan@snake-eyes.com\"\n      },\n      \"important\": false\n    },\n    type: \"message\"\n  }, {\n    message: {\n      \"html\": \"<h1>Another Email</h1>\",\n      \"text\": \"Example text content\",\n      \"subject\": \"example subject\",\n      \"from\": {\n        \"email\": \"pete@snake-eyes.com\",\n        avatar: \"https://avatars0.githubusercontent.com/u/239742?v=3&s=460\",\n        \"name\": \"Pete\"\n      },\n      \"unread\": true,\n      \"to\": [{\n        \"email\": \"dan@snake-eyes.com\",\n        avatar: \"https://avatars0.githubusercontent.com/u/810438?v=3&s=460\",\n        \"name\": \"Dan\",\n        \"type\": \"to\"\n      }],\n      \"timestamp\": \"1000\",\n      \"headers\": {\n        \"Reply-To\": \"pete@snake-eyes.com\"\n      },\n      \"important\": false\n    },\n    type: \"message\"\n  }, {\n    name: \"Ashok\",\n    email: \"ashok@snake-eyes.com\",\n    avatar: \"https://avatars3.githubusercontent.com/u/8316625?v=3&s=460\",\n    type: \"user\"\n  }, {\n    name: \"Dan\",\n    email: \"dan@snake-eyes.com\",\n    avatar: \"https://avatars0.githubusercontent.com/u/810438?v=3&s=460\",\n    type: \"user\"\n  }, {\n    name: \"Aria\",\n    email: \"aria@snake-eyes.com\",\n    avatar: \"https://avatars1.githubusercontent.com/u/2876?v=3&s=460\",\n    type: \"user\"\n  }, {\n    name: \"Pete\",\n    email: \"pete@snake-eyes.com\",\n    avatar: \"https://avatars0.githubusercontent.com/u/239742?v=3&s=460\",\n    type: \"user\"\n  }, {\n    name: \"Jeremiah\",\n    email: \"fishrock123@snake-eyes.com\",\n    avatar: \"https://avatars1.githubusercontent.com/u/1093990?v=3&s=400\",\n    type: \"user\"\n  }]\n};\n//# sourceMappingURL=data:application/json;charset=utf-8;base64,eyJ2ZXJzaW9uIjozLCJzb3VyY2VzIjpbImRvY3VtZW50cy5qcyJdLCJuYW1lcyI6WyJfaWQiLCJ0aHJlYWRfaWQiLCJtZXNzYWdlIiwiYXZhdGFyIiwidHlwZSIsIm5hbWUiLCJlbWFpbCJdLCJtYXBwaW5ncyI6Ijs7Ozs7a0JBQWU7QUFDYixVQUFRLENBQUM7QUFDUEEsU0FBSyxPQURFO0FBRVBDLGVBQVcsQ0FGSixFQUVPO0FBQ2RDLGFBQVM7QUFDUCxjQUFRLDZCQUREO0FBRVAsY0FBUSxzQkFGRDtBQUdQLGlCQUFXLGlCQUhKO0FBSVAsY0FBUTtBQUNOLGlCQUFTLHFCQURIO0FBRU5DLGdCQUFRLHlEQUZGO0FBR04sZ0JBQVE7QUFIRixPQUpEO0FBU1AsZ0JBQVUsS0FUSDtBQVVQLFlBQU0sQ0FBRTtBQUNOLGlCQUFTLHNCQURIO0FBRU5BLGdCQUFRLDREQUZGO0FBR04sZ0JBQVEsT0FIRjtBQUlOLGdCQUFRO0FBSkYsT0FBRixDQVZDO0FBaUJQLG1CQUFhLE1BakJOO0FBa0JQLGlCQUFXO0FBQ1Qsb0JBQVk7QUFESCxPQWxCSjtBQXFCUCxtQkFBYTtBQXJCTixLQUhGO0FBMEJQQyxVQUFNO0FBMUJDLEdBQUQsRUEyQkw7QUFDREosU0FBSyxPQURKO0FBRURDLGVBQVcsQ0FGVixFQUVhO0FBQ2RDLGFBQVM7QUFDUCxjQUFRLDZCQUREO0FBRVAsY0FBUSxlQUZEO0FBR1AsaUJBQVcsaUJBSEo7QUFJUCxjQUFRO0FBQ04saUJBQVMsc0JBREg7QUFFTkMsZ0JBQVEsNERBRkY7QUFHTixnQkFBUTtBQUhGLE9BSkQ7QUFTUCxnQkFBVSxJQVRIO0FBVVAsWUFBTSxDQUNKO0FBQ0UsaUJBQVMscUJBRFg7QUFFRUEsZ0JBQVEseURBRlY7QUFHRSxnQkFBUSxNQUhWO0FBSUUsZ0JBQVE7QUFKVixPQURJLENBVkM7QUFrQlAsbUJBQWEsTUFsQk47QUFtQlAsaUJBQVc7QUFDVCxvQkFBWTtBQURILE9BbkJKO0FBc0JQLG1CQUFhO0FBdEJOLEtBSFI7QUEyQkRDLFVBQU07QUEzQkwsR0EzQkssRUF1REw7QUFDREosU0FBSyxPQURKO0FBRURFLGFBQVM7QUFDUCxjQUFRLHdCQUREO0FBRVAsY0FBUSxzQkFGRDtBQUdQLGlCQUFXLGlCQUhKO0FBSVAsY0FBUTtBQUNOLGlCQUFTLHFCQURIO0FBRU5DLGdCQUFRLHlEQUZGO0FBR04sZ0JBQVE7QUFIRixPQUpEO0FBU1AsZ0JBQVUsSUFUSDtBQVVQLFlBQU0sQ0FDSjtBQUNFLGlCQUFTLHNCQURYO0FBRUVBLGdCQUFRLDREQUZWO0FBR0UsZ0JBQVEsT0FIVjtBQUlFLGdCQUFRO0FBSlYsT0FESSxDQVZDO0FBa0JQLG1CQUFhLE1BbEJOO0FBbUJQLGlCQUFXO0FBQ1Qsb0JBQVk7QUFESCxPQW5CSjtBQXNCUCxtQkFBYTtBQXRCTixLQUZSO0FBMEJEQyxVQUFNO0FBMUJMLEdBdkRLLEVBa0ZMO0FBQ0RILGVBQVcsQ0FEVixFQUNhO0FBQ2RDLGFBQVM7QUFDUCxjQUFRLDZCQUREO0FBRVAsY0FBUSxzQkFGRDtBQUdQLGlCQUFXLGlCQUhKO0FBSVAsY0FBUTtBQUNOLGlCQUFTLHFCQURIO0FBRU5DLGdCQUFRLDJEQUZGO0FBR04sZ0JBQVE7QUFIRixPQUpEO0FBU1AsZ0JBQVUsS0FUSDtBQVVQLFlBQU0sQ0FBRTtBQUNOLGlCQUFTLDRCQURIO0FBRU5BLGdCQUFRLDREQUZGO0FBR04sZ0JBQVEsVUFIRjtBQUlOLGdCQUFRO0FBSkYsT0FBRixDQVZDO0FBaUJQLG1CQUFhLE1BakJOO0FBa0JQLGlCQUFXO0FBQ1Qsb0JBQVk7QUFESCxPQWxCSjtBQXFCUCxtQkFBYTtBQXJCTixLQUZSO0FBeUJEQyxVQUFNO0FBekJMLEdBbEZLLEVBNEdMO0FBQ0RILGVBQVcsQ0FEVixFQUNhO0FBQ2RDLGFBQVM7QUFDUCxjQUFRLDZCQUREO0FBRVAsY0FBUSxlQUZEO0FBR1AsaUJBQVcsaUJBSEo7QUFJUCxjQUFRO0FBQ04saUJBQVMsNEJBREg7QUFFTkMsZ0JBQVEsNERBRkY7QUFHTixnQkFBUTtBQUhGLE9BSkQ7QUFTUCxnQkFBVSxJQVRIO0FBVVAsWUFBTSxDQUNKO0FBQ0UsaUJBQVMscUJBRFg7QUFFRUEsZ0JBQVEsMkRBRlY7QUFHRSxnQkFBUSxNQUhWO0FBSUUsZ0JBQVE7QUFKVixPQURJLENBVkM7QUFrQlAsbUJBQWEsTUFsQk47QUFtQlAsaUJBQVc7QUFDVCxvQkFBWTtBQURILE9BbkJKO0FBc0JQLG1CQUFhO0FBdEJOLEtBRlI7QUEwQkRDLFVBQU07QUExQkwsR0E1R0ssRUF1SUw7QUFDREYsYUFBUztBQUNQLGNBQVEsd0JBREQ7QUFFUCxjQUFRLHNCQUZEO0FBR1AsaUJBQVcsaUJBSEo7QUFJUCxjQUFRO0FBQ04saUJBQVMscUJBREg7QUFFTkMsZ0JBQVEsMkRBRkY7QUFHTixnQkFBUTtBQUhGLE9BSkQ7QUFTUCxnQkFBVSxJQVRIO0FBVVAsWUFBTSxDQUNKO0FBQ0UsaUJBQVMsNEJBRFg7QUFFRUEsZ0JBQVEsNERBRlY7QUFHRSxnQkFBUSxVQUhWO0FBSUUsZ0JBQVE7QUFKVixPQURJLENBVkM7QUFrQlAsbUJBQWEsTUFsQk47QUFtQlAsaUJBQVc7QUFDVCxvQkFBWTtBQURILE9BbkJKO0FBc0JQLG1CQUFhO0FBdEJOLEtBRFI7QUF5QkRDLFVBQU07QUF6QkwsR0F2SUssRUFpS0w7QUFDREgsZUFBVyxDQURWLEVBQ2E7QUFDZEMsYUFBUztBQUNQLGNBQVEsNkJBREQ7QUFFUCxjQUFRLHNCQUZEO0FBR1AsaUJBQVcsaUJBSEo7QUFJUCxjQUFRO0FBQ04saUJBQVMscUJBREg7QUFFTkMsZ0JBQVEsMkRBRkY7QUFHTixnQkFBUTtBQUhGLE9BSkQ7QUFTUCxnQkFBVSxLQVRIO0FBVVAsWUFBTSxDQUFFO0FBQ04saUJBQVMsb0JBREg7QUFFTkEsZ0JBQVEsMkRBRkY7QUFHTixnQkFBUSxLQUhGO0FBSU4sZ0JBQVE7QUFKRixPQUFGLENBVkM7QUFpQlAsbUJBQWEsTUFqQk47QUFrQlAsaUJBQVc7QUFDVCxvQkFBWTtBQURILE9BbEJKO0FBcUJQLG1CQUFhO0FBckJOLEtBRlI7QUF5QkRDLFVBQU07QUF6QkwsR0FqS0ssRUEyTEw7QUFDREgsZUFBVyxDQURWLEVBQ2E7QUFDZEMsYUFBUztBQUNQLGNBQVEsNkJBREQ7QUFFUCxjQUFRLGVBRkQ7QUFHUCxpQkFBVyxpQkFISjtBQUlQLGNBQVE7QUFDTixpQkFBUyxvQkFESDtBQUVOQyxnQkFBUSwyREFGRjtBQUdOLGdCQUFRO0FBSEYsT0FKRDtBQVNQLGdCQUFVLElBVEg7QUFVUCxZQUFNLENBQ0o7QUFDRSxpQkFBUyxxQkFEWDtBQUVFQSxnQkFBUSwyREFGVjtBQUdFLGdCQUFRLE1BSFY7QUFJRSxnQkFBUTtBQUpWLE9BREksQ0FWQztBQWtCUCxtQkFBYSxNQWxCTjtBQW1CUCxpQkFBVztBQUNULG9CQUFZO0FBREgsT0FuQko7QUFzQlAsbUJBQWE7QUF0Qk4sS0FGUjtBQTBCREMsVUFBTTtBQTFCTCxHQTNMSyxFQXNOTDtBQUNERixhQUFTO0FBQ1AsY0FBUSx3QkFERDtBQUVQLGNBQVEsc0JBRkQ7QUFHUCxpQkFBVyxpQkFISjtBQUlQLGNBQVE7QUFDTixpQkFBUyxxQkFESDtBQUVOQyxnQkFBUSwyREFGRjtBQUdOLGdCQUFRO0FBSEYsT0FKRDtBQVNQLGdCQUFVLElBVEg7QUFVUCxZQUFNLENBQ0o7QUFDRSxpQkFBUyxvQkFEWDtBQUVFQSxnQkFBUSwyREFGVjtBQUdFLGdCQUFRLEtBSFY7QUFJRSxnQkFBUTtBQUpWLE9BREksQ0FWQztBQWtCUCxtQkFBYSxNQWxCTjtBQW1CUCxpQkFBVztBQUNULG9CQUFZO0FBREgsT0FuQko7QUFzQlAsbUJBQWE7QUF0Qk4sS0FEUjtBQXlCREMsVUFBTTtBQXpCTCxHQXROSyxFQWdQTDtBQUNEQyxVQUFNLE9BREw7QUFFREMsV0FBTyxzQkFGTjtBQUdESCxZQUFRLDREQUhQO0FBSURDLFVBQU07QUFKTCxHQWhQSyxFQXFQTDtBQUNEQyxVQUFNLEtBREw7QUFFREMsV0FBTyxvQkFGTjtBQUdESCxZQUFRLDJEQUhQO0FBSURDLFVBQU07QUFKTCxHQXJQSyxFQTBQTDtBQUNEQyxVQUFNLE1BREw7QUFFREMsV0FBTyxxQkFGTjtBQUdESCxZQUFRLHlEQUhQO0FBSURDLFVBQU07QUFKTCxHQTFQSyxFQStQTDtBQUNEQyxVQUFNLE1BREw7QUFFREMsV0FBTyxxQkFGTjtBQUdESCxZQUFRLDJEQUhQO0FBSURDLFVBQU07QUFKTCxHQS9QSyxFQW9RTDtBQUNEQyxVQUFNLFVBREw7QUFFREMsV0FBTyw0QkFGTjtBQUdESCxZQUFRLDREQUhQO0FBSURDLFVBQU07QUFKTCxHQXBRSztBQURLLEMiLCJmaWxlIjoiZG9jdW1lbnRzLmpzIiwic291cmNlUm9vdCI6Ii9ob21lL2JhZHJvdWNoL0J1cmVhdS9mcm9udC1lbmRzL3JlYWN0L3JlZHV4LXJlYWN0LXJvdXRlci1lbWFpbC1jbGllbnQtbWFzdGVyL3NlcnZlci9maXh0dXJlcyIsInNvdXJjZXNDb250ZW50IjpbImV4cG9ydCBkZWZhdWx0IHtcbiAgXCJkb2NzXCI6IFt7XG4gICAgX2lkOiAnY2R0cmEnLFxuICAgIHRocmVhZF9pZDogMiwgLy9UaGlzIGlzIHRoZSBpZCBpZiBpdCdzIHBhcnQgb2Ygc29tZSB0aHJlYWQgb3RoZXJ3aXNlIHRoaXMgcHJvcGVydHkgd29uJ3QgZXhpc3QgaW4gZG9jdW1lbnRcbiAgICBtZXNzYWdlOiB7XG4gICAgICBcImh0bWxcIjogXCI8cD5FeGFtcGxlIEhUTUwgY29udGVudDwvcD5cIixcbiAgICAgIFwidGV4dFwiOiBcIkV4YW1wbGUgdGV4dCBjb250ZW50XCIsXG4gICAgICBcInN1YmplY3RcIjogXCJleGFtcGxlIHN1YmplY3RcIixcbiAgICAgIFwiZnJvbVwiOiB7XG4gICAgICAgIFwiZW1haWxcIjogXCJhcmlhQHNuYWtlLWV5ZXMuY29tXCIsXG4gICAgICAgIGF2YXRhcjogXCJodHRwczovL2F2YXRhcnMxLmdpdGh1YnVzZXJjb250ZW50LmNvbS91LzI4NzY/dj0zJnM9NDYwXCIsXG4gICAgICAgIFwibmFtZVwiOiBcIkFyaWFcIlxuICAgICAgfSxcbiAgICAgIFwidW5yZWFkXCI6IGZhbHNlLFxuICAgICAgXCJ0b1wiOiBbIHtcbiAgICAgICAgXCJlbWFpbFwiOiBcImFzaG9rQHNuYWtlLWV5ZXMuY29tXCIsXG4gICAgICAgIGF2YXRhcjogXCJodHRwczovL2F2YXRhcnMzLmdpdGh1YnVzZXJjb250ZW50LmNvbS91LzgzMTY2MjU/dj0zJnM9NDYwXCIsXG4gICAgICAgIFwibmFtZVwiOiBcIkFzaG9rXCIsXG4gICAgICAgIFwidHlwZVwiOiBcInRvXCJcbiAgICAgIH1cbiAgICAgIF0sXG4gICAgICBcInRpbWVzdGFtcFwiOiBcIjEwMDBcIixcbiAgICAgIFwiaGVhZGVyc1wiOiB7XG4gICAgICAgIFwiUmVwbHktVG9cIjogXCJhcmlhQHNuYWtlLWV5ZXMuY29tXCIsXG4gICAgICB9LFxuICAgICAgXCJpbXBvcnRhbnRcIjogZmFsc2VcbiAgICB9LFxuICAgIHR5cGU6IFwibWVzc2FnZVwiXG4gIH0sIHtcbiAgICBfaWQ6ICdhYmNkZScsXG4gICAgdGhyZWFkX2lkOiAyLCAvL1RoaXMgaXMgdGhlIGlkIGlmIGl0J3MgcGFydCBvZiBzb21lIHRocmVhZCBvdGhlcndpc2UgdGhpcyBwcm9wZXJ0eSB3b24ndCBleGlzdCBpbiBkb2N1bWVudFxuICAgIG1lc3NhZ2U6IHtcbiAgICAgIFwiaHRtbFwiOiBcIjxoMT5FeGFtcGxlIEhUTUwgcmVwbHk8L2gxPlwiLFxuICAgICAgXCJ0ZXh0XCI6IFwiRXhhbXBsZSByZXBseVwiLFxuICAgICAgXCJzdWJqZWN0XCI6IFwiZXhhbXBsZSBzdWJqZWN0XCIsXG4gICAgICBcImZyb21cIjoge1xuICAgICAgICBcImVtYWlsXCI6IFwiYXNob2tAc25ha2UtZXllcy5jb21cIixcbiAgICAgICAgYXZhdGFyOiBcImh0dHBzOi8vYXZhdGFyczMuZ2l0aHVidXNlcmNvbnRlbnQuY29tL3UvODMxNjYyNT92PTMmcz00NjBcIixcbiAgICAgICAgXCJuYW1lXCI6IFwiQXNob2tcIlxuICAgICAgfSxcbiAgICAgIFwidW5yZWFkXCI6IHRydWUsXG4gICAgICBcInRvXCI6IFtcbiAgICAgICAge1xuICAgICAgICAgIFwiZW1haWxcIjogXCJhcmlhQHNuYWtlLWV5ZXMuY29tXCIsXG4gICAgICAgICAgYXZhdGFyOiBcImh0dHBzOi8vYXZhdGFyczEuZ2l0aHVidXNlcmNvbnRlbnQuY29tL3UvMjg3Nj92PTMmcz00NjBcIixcbiAgICAgICAgICBcIm5hbWVcIjogXCJBcmlhXCIsXG4gICAgICAgICAgXCJ0eXBlXCI6IFwidG9cIlxuICAgICAgICB9XG4gICAgICBdLFxuICAgICAgXCJ0aW1lc3RhbXBcIjogXCIxMjAwXCIsXG4gICAgICBcImhlYWRlcnNcIjoge1xuICAgICAgICBcIlJlcGx5LVRvXCI6IFwiYXNob2tAc25ha2UtZXllcy5jb21cIixcbiAgICAgIH0sXG4gICAgICBcImltcG9ydGFudFwiOiBmYWxzZVxuICAgIH0sXG4gICAgdHlwZTogXCJtZXNzYWdlXCJcbiAgfSwge1xuICAgIF9pZDogJ2FiY2RwJyxcbiAgICBtZXNzYWdlOiB7XG4gICAgICBcImh0bWxcIjogXCI8aDE+QW5vdGhlciBFbWFpbDwvaDE+XCIsXG4gICAgICBcInRleHRcIjogXCJFeGFtcGxlIHRleHQgY29udGVudFwiLFxuICAgICAgXCJzdWJqZWN0XCI6IFwiZXhhbXBsZSBzdWJqZWN0XCIsXG4gICAgICBcImZyb21cIjoge1xuICAgICAgICBcImVtYWlsXCI6IFwiYXJpYUBzbmFrZS1leWVzLmNvbVwiLFxuICAgICAgICBhdmF0YXI6IFwiaHR0cHM6Ly9hdmF0YXJzMS5naXRodWJ1c2VyY29udGVudC5jb20vdS8yODc2P3Y9MyZzPTQ2MFwiLFxuICAgICAgICBcIm5hbWVcIjogXCJBcmlhXCJcbiAgICAgIH0sXG4gICAgICBcInVucmVhZFwiOiB0cnVlLFxuICAgICAgXCJ0b1wiOiBbXG4gICAgICAgIHtcbiAgICAgICAgICBcImVtYWlsXCI6IFwiYXNob2tAc25ha2UtZXllcy5jb21cIixcbiAgICAgICAgICBhdmF0YXI6IFwiaHR0cHM6Ly9hdmF0YXJzMy5naXRodWJ1c2VyY29udGVudC5jb20vdS84MzE2NjI1P3Y9MyZzPTQ2MFwiLFxuICAgICAgICAgIFwibmFtZVwiOiBcIkFzaG9rXCIsXG4gICAgICAgICAgXCJ0eXBlXCI6IFwidG9cIlxuICAgICAgICB9XG4gICAgICBdLFxuICAgICAgXCJ0aW1lc3RhbXBcIjogXCIxMDAwXCIsXG4gICAgICBcImhlYWRlcnNcIjoge1xuICAgICAgICBcIlJlcGx5LVRvXCI6IFwiYXJpYUBzbmFrZS1leWVzLmNvbVwiLFxuICAgICAgfSxcbiAgICAgIFwiaW1wb3J0YW50XCI6IGZhbHNlXG4gICAgfSxcbiAgICB0eXBlOiBcIm1lc3NhZ2VcIlxuICB9LCB7XG4gICAgdGhyZWFkX2lkOiAyLCAvL1RoaXMgaXMgdGhlIGlkIGlmIGl0J3MgcGFydCBvZiBzb21lIHRocmVhZCBvdGhlcndpc2UgdGhpcyBwcm9wZXJ0eSB3b24ndCBleGlzdCBpbiBkb2N1bWVudFxuICAgIG1lc3NhZ2U6IHtcbiAgICAgIFwiaHRtbFwiOiBcIjxwPkV4YW1wbGUgSFRNTCBjb250ZW50PC9wPlwiLFxuICAgICAgXCJ0ZXh0XCI6IFwiRXhhbXBsZSB0ZXh0IGNvbnRlbnRcIixcbiAgICAgIFwic3ViamVjdFwiOiBcImV4YW1wbGUgc3ViamVjdFwiLFxuICAgICAgXCJmcm9tXCI6IHtcbiAgICAgICAgXCJlbWFpbFwiOiBcInBldGVAc25ha2UtZXllcy5jb21cIixcbiAgICAgICAgYXZhdGFyOiBcImh0dHBzOi8vYXZhdGFyczAuZ2l0aHVidXNlcmNvbnRlbnQuY29tL3UvMjM5NzQyP3Y9MyZzPTQ2MFwiLFxuICAgICAgICBcIm5hbWVcIjogXCJQZXRlXCJcbiAgICAgIH0sXG4gICAgICBcInVucmVhZFwiOiBmYWxzZSxcbiAgICAgIFwidG9cIjogWyB7XG4gICAgICAgIFwiZW1haWxcIjogXCJmaXNocm9jazEyM0BzbmFrZS1leWVzLmNvbVwiLFxuICAgICAgICBhdmF0YXI6IFwiaHR0cHM6Ly9hdmF0YXJzMS5naXRodWJ1c2VyY29udGVudC5jb20vdS8xMDkzOTkwP3Y9MyZzPTQwMFwiLFxuICAgICAgICBcIm5hbWVcIjogXCJKZXJlbWlhaFwiLFxuICAgICAgICBcInR5cGVcIjogXCJ0b1wiXG4gICAgICB9XG4gICAgICBdLFxuICAgICAgXCJ0aW1lc3RhbXBcIjogXCIxMDAwXCIsXG4gICAgICBcImhlYWRlcnNcIjoge1xuICAgICAgICBcIlJlcGx5LVRvXCI6IFwicGV0ZUBzbmFrZS1leWVzLmNvbVwiLFxuICAgICAgfSxcbiAgICAgIFwiaW1wb3J0YW50XCI6IGZhbHNlXG4gICAgfSxcbiAgICB0eXBlOiBcIm1lc3NhZ2VcIlxuICB9LCB7XG4gICAgdGhyZWFkX2lkOiAyLCAvL1RoaXMgaXMgdGhlIGlkIGlmIGl0J3MgcGFydCBvZiBzb21lIHRocmVhZCBvdGhlcndpc2UgdGhpcyBwcm9wZXJ0eSB3b24ndCBleGlzdCBpbiBkb2N1bWVudFxuICAgIG1lc3NhZ2U6IHtcbiAgICAgIFwiaHRtbFwiOiBcIjxoMT5FeGFtcGxlIEhUTUwgcmVwbHk8L2gxPlwiLFxuICAgICAgXCJ0ZXh0XCI6IFwiRXhhbXBsZSByZXBseVwiLFxuICAgICAgXCJzdWJqZWN0XCI6IFwiZXhhbXBsZSBzdWJqZWN0XCIsXG4gICAgICBcImZyb21cIjoge1xuICAgICAgICBcImVtYWlsXCI6IFwiZmlzaHJvY2sxMjNAc25ha2UtZXllcy5jb21cIixcbiAgICAgICAgYXZhdGFyOiBcImh0dHBzOi8vYXZhdGFyczEuZ2l0aHVidXNlcmNvbnRlbnQuY29tL3UvMTA5Mzk5MD92PTMmcz00MDBcIixcbiAgICAgICAgXCJuYW1lXCI6IFwiSmVyZW1pYWhcIlxuICAgICAgfSxcbiAgICAgIFwidW5yZWFkXCI6IHRydWUsXG4gICAgICBcInRvXCI6IFtcbiAgICAgICAge1xuICAgICAgICAgIFwiZW1haWxcIjogXCJwZXRlQHNuYWtlLWV5ZXMuY29tXCIsXG4gICAgICAgICAgYXZhdGFyOiBcImh0dHBzOi8vYXZhdGFyczAuZ2l0aHVidXNlcmNvbnRlbnQuY29tL3UvMjM5NzQyP3Y9MyZzPTQ2MFwiLFxuICAgICAgICAgIFwibmFtZVwiOiBcIlBldGVcIixcbiAgICAgICAgICBcInR5cGVcIjogXCJ0b1wiXG4gICAgICAgIH1cbiAgICAgIF0sXG4gICAgICBcInRpbWVzdGFtcFwiOiBcIjEyMDBcIixcbiAgICAgIFwiaGVhZGVyc1wiOiB7XG4gICAgICAgIFwiUmVwbHktVG9cIjogXCJmaXNocm9jazEyM0BzbmFrZS1leWVzLmNvbVwiLFxuICAgICAgfSxcbiAgICAgIFwiaW1wb3J0YW50XCI6IGZhbHNlXG4gICAgfSxcbiAgICB0eXBlOiBcIm1lc3NhZ2VcIlxuICB9LCB7XG4gICAgbWVzc2FnZToge1xuICAgICAgXCJodG1sXCI6IFwiPGgxPkFub3RoZXIgRW1haWw8L2gxPlwiLFxuICAgICAgXCJ0ZXh0XCI6IFwiRXhhbXBsZSB0ZXh0IGNvbnRlbnRcIixcbiAgICAgIFwic3ViamVjdFwiOiBcImV4YW1wbGUgc3ViamVjdFwiLFxuICAgICAgXCJmcm9tXCI6IHtcbiAgICAgICAgXCJlbWFpbFwiOiBcInBldGVAc25ha2UtZXllcy5jb21cIixcbiAgICAgICAgYXZhdGFyOiBcImh0dHBzOi8vYXZhdGFyczAuZ2l0aHVidXNlcmNvbnRlbnQuY29tL3UvMjM5NzQyP3Y9MyZzPTQ2MFwiLFxuICAgICAgICBcIm5hbWVcIjogXCJQZXRlXCJcbiAgICAgIH0sXG4gICAgICBcInVucmVhZFwiOiB0cnVlLFxuICAgICAgXCJ0b1wiOiBbXG4gICAgICAgIHtcbiAgICAgICAgICBcImVtYWlsXCI6IFwiZmlzaHJvY2sxMjNAc25ha2UtZXllcy5jb21cIixcbiAgICAgICAgICBhdmF0YXI6IFwiaHR0cHM6Ly9hdmF0YXJzMS5naXRodWJ1c2VyY29udGVudC5jb20vdS8xMDkzOTkwP3Y9MyZzPTQwMFwiLFxuICAgICAgICAgIFwibmFtZVwiOiBcIkplcmVtaWFoXCIsXG4gICAgICAgICAgXCJ0eXBlXCI6IFwidG9cIlxuICAgICAgICB9XG4gICAgICBdLFxuICAgICAgXCJ0aW1lc3RhbXBcIjogXCIxMDAwXCIsXG4gICAgICBcImhlYWRlcnNcIjoge1xuICAgICAgICBcIlJlcGx5LVRvXCI6IFwicGV0ZUBzbmFrZS1leWVzLmNvbVwiLFxuICAgICAgfSxcbiAgICAgIFwiaW1wb3J0YW50XCI6IGZhbHNlXG4gICAgfSxcbiAgICB0eXBlOiBcIm1lc3NhZ2VcIlxuICB9LCB7XG4gICAgdGhyZWFkX2lkOiAyLCAvL1RoaXMgaXMgdGhlIGlkIGlmIGl0J3MgcGFydCBvZiBzb21lIHRocmVhZCBvdGhlcndpc2UgdGhpcyBwcm9wZXJ0eSB3b24ndCBleGlzdCBpbiBkb2N1bWVudFxuICAgIG1lc3NhZ2U6IHtcbiAgICAgIFwiaHRtbFwiOiBcIjxwPkV4YW1wbGUgSFRNTCBjb250ZW50PC9wPlwiLFxuICAgICAgXCJ0ZXh0XCI6IFwiRXhhbXBsZSB0ZXh0IGNvbnRlbnRcIixcbiAgICAgIFwic3ViamVjdFwiOiBcImV4YW1wbGUgc3ViamVjdFwiLFxuICAgICAgXCJmcm9tXCI6IHtcbiAgICAgICAgXCJlbWFpbFwiOiBcInBldGVAc25ha2UtZXllcy5jb21cIixcbiAgICAgICAgYXZhdGFyOiBcImh0dHBzOi8vYXZhdGFyczAuZ2l0aHVidXNlcmNvbnRlbnQuY29tL3UvMjM5NzQyP3Y9MyZzPTQ2MFwiLFxuICAgICAgICBcIm5hbWVcIjogXCJQZXRlXCJcbiAgICAgIH0sXG4gICAgICBcInVucmVhZFwiOiBmYWxzZSxcbiAgICAgIFwidG9cIjogWyB7XG4gICAgICAgIFwiZW1haWxcIjogXCJkYW5Ac25ha2UtZXllcy5jb21cIixcbiAgICAgICAgYXZhdGFyOiBcImh0dHBzOi8vYXZhdGFyczAuZ2l0aHVidXNlcmNvbnRlbnQuY29tL3UvODEwNDM4P3Y9MyZzPTQ2MFwiLFxuICAgICAgICBcIm5hbWVcIjogXCJEYW5cIixcbiAgICAgICAgXCJ0eXBlXCI6IFwidG9cIlxuICAgICAgfVxuICAgICAgXSxcbiAgICAgIFwidGltZXN0YW1wXCI6IFwiMTAwMFwiLFxuICAgICAgXCJoZWFkZXJzXCI6IHtcbiAgICAgICAgXCJSZXBseS1Ub1wiOiBcInBldGVAc25ha2UtZXllcy5jb21cIixcbiAgICAgIH0sXG4gICAgICBcImltcG9ydGFudFwiOiBmYWxzZVxuICAgIH0sXG4gICAgdHlwZTogXCJtZXNzYWdlXCJcbiAgfSwge1xuICAgIHRocmVhZF9pZDogMiwgLy9UaGlzIGlzIHRoZSBpZCBpZiBpdCdzIHBhcnQgb2Ygc29tZSB0aHJlYWQgb3RoZXJ3aXNlIHRoaXMgcHJvcGVydHkgd29uJ3QgZXhpc3QgaW4gZG9jdW1lbnRcbiAgICBtZXNzYWdlOiB7XG4gICAgICBcImh0bWxcIjogXCI8aDE+RXhhbXBsZSBIVE1MIHJlcGx5PC9oMT5cIixcbiAgICAgIFwidGV4dFwiOiBcIkV4YW1wbGUgcmVwbHlcIixcbiAgICAgIFwic3ViamVjdFwiOiBcImV4YW1wbGUgc3ViamVjdFwiLFxuICAgICAgXCJmcm9tXCI6IHtcbiAgICAgICAgXCJlbWFpbFwiOiBcImRhbkBzbmFrZS1leWVzLmNvbVwiLFxuICAgICAgICBhdmF0YXI6IFwiaHR0cHM6Ly9hdmF0YXJzMC5naXRodWJ1c2VyY29udGVudC5jb20vdS84MTA0Mzg/dj0zJnM9NDYwXCIsXG4gICAgICAgIFwibmFtZVwiOiBcIkRhblwiXG4gICAgICB9LFxuICAgICAgXCJ1bnJlYWRcIjogdHJ1ZSxcbiAgICAgIFwidG9cIjogW1xuICAgICAgICB7XG4gICAgICAgICAgXCJlbWFpbFwiOiBcInBldGVAc25ha2UtZXllcy5jb21cIixcbiAgICAgICAgICBhdmF0YXI6IFwiaHR0cHM6Ly9hdmF0YXJzMC5naXRodWJ1c2VyY29udGVudC5jb20vdS8yMzk3NDI/dj0zJnM9NDYwXCIsXG4gICAgICAgICAgXCJuYW1lXCI6IFwiUGV0ZVwiLFxuICAgICAgICAgIFwidHlwZVwiOiBcInRvXCJcbiAgICAgICAgfVxuICAgICAgXSxcbiAgICAgIFwidGltZXN0YW1wXCI6IFwiMTIwMFwiLFxuICAgICAgXCJoZWFkZXJzXCI6IHtcbiAgICAgICAgXCJSZXBseS1Ub1wiOiBcImRhbkBzbmFrZS1leWVzLmNvbVwiLFxuICAgICAgfSxcbiAgICAgIFwiaW1wb3J0YW50XCI6IGZhbHNlXG4gICAgfSxcbiAgICB0eXBlOiBcIm1lc3NhZ2VcIlxuICB9LCB7XG4gICAgbWVzc2FnZToge1xuICAgICAgXCJodG1sXCI6IFwiPGgxPkFub3RoZXIgRW1haWw8L2gxPlwiLFxuICAgICAgXCJ0ZXh0XCI6IFwiRXhhbXBsZSB0ZXh0IGNvbnRlbnRcIixcbiAgICAgIFwic3ViamVjdFwiOiBcImV4YW1wbGUgc3ViamVjdFwiLFxuICAgICAgXCJmcm9tXCI6IHtcbiAgICAgICAgXCJlbWFpbFwiOiBcInBldGVAc25ha2UtZXllcy5jb21cIixcbiAgICAgICAgYXZhdGFyOiBcImh0dHBzOi8vYXZhdGFyczAuZ2l0aHVidXNlcmNvbnRlbnQuY29tL3UvMjM5NzQyP3Y9MyZzPTQ2MFwiLFxuICAgICAgICBcIm5hbWVcIjogXCJQZXRlXCJcbiAgICAgIH0sXG4gICAgICBcInVucmVhZFwiOiB0cnVlLFxuICAgICAgXCJ0b1wiOiBbXG4gICAgICAgIHtcbiAgICAgICAgICBcImVtYWlsXCI6IFwiZGFuQHNuYWtlLWV5ZXMuY29tXCIsXG4gICAgICAgICAgYXZhdGFyOiBcImh0dHBzOi8vYXZhdGFyczAuZ2l0aHVidXNlcmNvbnRlbnQuY29tL3UvODEwNDM4P3Y9MyZzPTQ2MFwiLFxuICAgICAgICAgIFwibmFtZVwiOiBcIkRhblwiLFxuICAgICAgICAgIFwidHlwZVwiOiBcInRvXCJcbiAgICAgICAgfVxuICAgICAgXSxcbiAgICAgIFwidGltZXN0YW1wXCI6IFwiMTAwMFwiLFxuICAgICAgXCJoZWFkZXJzXCI6IHtcbiAgICAgICAgXCJSZXBseS1Ub1wiOiBcInBldGVAc25ha2UtZXllcy5jb21cIixcbiAgICAgIH0sXG4gICAgICBcImltcG9ydGFudFwiOiBmYWxzZVxuICAgIH0sXG4gICAgdHlwZTogXCJtZXNzYWdlXCJcbiAgfSwge1xuICAgIG5hbWU6IFwiQXNob2tcIixcbiAgICBlbWFpbDogXCJhc2hva0BzbmFrZS1leWVzLmNvbVwiLFxuICAgIGF2YXRhcjogXCJodHRwczovL2F2YXRhcnMzLmdpdGh1YnVzZXJjb250ZW50LmNvbS91LzgzMTY2MjU/dj0zJnM9NDYwXCIsXG4gICAgdHlwZTogXCJ1c2VyXCJcbiAgfSwge1xuICAgIG5hbWU6IFwiRGFuXCIsXG4gICAgZW1haWw6IFwiZGFuQHNuYWtlLWV5ZXMuY29tXCIsXG4gICAgYXZhdGFyOiBcImh0dHBzOi8vYXZhdGFyczAuZ2l0aHVidXNlcmNvbnRlbnQuY29tL3UvODEwNDM4P3Y9MyZzPTQ2MFwiLFxuICAgIHR5cGU6IFwidXNlclwiXG4gIH0sIHtcbiAgICBuYW1lOiBcIkFyaWFcIixcbiAgICBlbWFpbDogXCJhcmlhQHNuYWtlLWV5ZXMuY29tXCIsXG4gICAgYXZhdGFyOiBcImh0dHBzOi8vYXZhdGFyczEuZ2l0aHVidXNlcmNvbnRlbnQuY29tL3UvMjg3Nj92PTMmcz00NjBcIixcbiAgICB0eXBlOiBcInVzZXJcIlxuICB9LCB7XG4gICAgbmFtZTogXCJQZXRlXCIsXG4gICAgZW1haWw6IFwicGV0ZUBzbmFrZS1leWVzLmNvbVwiLFxuICAgIGF2YXRhcjogXCJodHRwczovL2F2YXRhcnMwLmdpdGh1YnVzZXJjb250ZW50LmNvbS91LzIzOTc0Mj92PTMmcz00NjBcIixcbiAgICB0eXBlOiBcInVzZXJcIlxuICB9LCB7XG4gICAgbmFtZTogXCJKZXJlbWlhaFwiLFxuICAgIGVtYWlsOiBcImZpc2hyb2NrMTIzQHNuYWtlLWV5ZXMuY29tXCIsXG4gICAgYXZhdGFyOiBcImh0dHBzOi8vYXZhdGFyczEuZ2l0aHVidXNlcmNvbnRlbnQuY29tL3UvMTA5Mzk5MD92PTMmcz00MDBcIixcbiAgICB0eXBlOiBcInVzZXJcIlxuICB9XVxufTtcbiJdfQ==",
+    "ast": null,
+    "map": {
+      "version": 3,
+      "sources": [
+        "documents.js"
+      ],
+      "names": [
+        "_id",
+        "thread_id",
+        "message",
+        "avatar",
+        "type",
+        "name",
+        "email"
+      ],
+      "mappings": "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",
+      "file": "documents.js",
+      "sourceRoot": "/home/badrouch/Bureau/front-ends/react/redux-react-router-email-client-master/server/fixtures",
+      "sourcesContent": [
+        "export default {\n  \"docs\": [{\n    _id: 'cdtra',\n    thread_id: 2, //This is the id if it's part of some thread otherwise this property won't exist in document\n    message: {\n      \"html\": \"<p>Example HTML content</p>\",\n      \"text\": \"Example text content\",\n      \"subject\": \"example subject\",\n      \"from\": {\n        \"email\": \"aria@snake-eyes.com\",\n        avatar: \"https://avatars1.githubusercontent.com/u/2876?v=3&s=460\",\n        \"name\": \"Aria\"\n      },\n      \"unread\": false,\n      \"to\": [ {\n        \"email\": \"ashok@snake-eyes.com\",\n        avatar: \"https://avatars3.githubusercontent.com/u/8316625?v=3&s=460\",\n        \"name\": \"Ashok\",\n        \"type\": \"to\"\n      }\n      ],\n      \"timestamp\": \"1000\",\n      \"headers\": {\n        \"Reply-To\": \"aria@snake-eyes.com\",\n      },\n      \"important\": false\n    },\n    type: \"message\"\n  }, {\n    _id: 'abcde',\n    thread_id: 2, //This is the id if it's part of some thread otherwise this property won't exist in document\n    message: {\n      \"html\": \"<h1>Example HTML reply</h1>\",\n      \"text\": \"Example reply\",\n      \"subject\": \"example subject\",\n      \"from\": {\n        \"email\": \"ashok@snake-eyes.com\",\n        avatar: \"https://avatars3.githubusercontent.com/u/8316625?v=3&s=460\",\n        \"name\": \"Ashok\"\n      },\n      \"unread\": true,\n      \"to\": [\n        {\n          \"email\": \"aria@snake-eyes.com\",\n          avatar: \"https://avatars1.githubusercontent.com/u/2876?v=3&s=460\",\n          \"name\": \"Aria\",\n          \"type\": \"to\"\n        }\n      ],\n      \"timestamp\": \"1200\",\n      \"headers\": {\n        \"Reply-To\": \"ashok@snake-eyes.com\",\n      },\n      \"important\": false\n    },\n    type: \"message\"\n  }, {\n    _id: 'abcdp',\n    message: {\n      \"html\": \"<h1>Another Email</h1>\",\n      \"text\": \"Example text content\",\n      \"subject\": \"example subject\",\n      \"from\": {\n        \"email\": \"aria@snake-eyes.com\",\n        avatar: \"https://avatars1.githubusercontent.com/u/2876?v=3&s=460\",\n        \"name\": \"Aria\"\n      },\n      \"unread\": true,\n      \"to\": [\n        {\n          \"email\": \"ashok@snake-eyes.com\",\n          avatar: \"https://avatars3.githubusercontent.com/u/8316625?v=3&s=460\",\n          \"name\": \"Ashok\",\n          \"type\": \"to\"\n        }\n      ],\n      \"timestamp\": \"1000\",\n      \"headers\": {\n        \"Reply-To\": \"aria@snake-eyes.com\",\n      },\n      \"important\": false\n    },\n    type: \"message\"\n  }, {\n    thread_id: 2, //This is the id if it's part of some thread otherwise this property won't exist in document\n    message: {\n      \"html\": \"<p>Example HTML content</p>\",\n      \"text\": \"Example text content\",\n      \"subject\": \"example subject\",\n      \"from\": {\n        \"email\": \"pete@snake-eyes.com\",\n        avatar: \"https://avatars0.githubusercontent.com/u/239742?v=3&s=460\",\n        \"name\": \"Pete\"\n      },\n      \"unread\": false,\n      \"to\": [ {\n        \"email\": \"fishrock123@snake-eyes.com\",\n        avatar: \"https://avatars1.githubusercontent.com/u/1093990?v=3&s=400\",\n        \"name\": \"Jeremiah\",\n        \"type\": \"to\"\n      }\n      ],\n      \"timestamp\": \"1000\",\n      \"headers\": {\n        \"Reply-To\": \"pete@snake-eyes.com\",\n      },\n      \"important\": false\n    },\n    type: \"message\"\n  }, {\n    thread_id: 2, //This is the id if it's part of some thread otherwise this property won't exist in document\n    message: {\n      \"html\": \"<h1>Example HTML reply</h1>\",\n      \"text\": \"Example reply\",\n      \"subject\": \"example subject\",\n      \"from\": {\n        \"email\": \"fishrock123@snake-eyes.com\",\n        avatar: \"https://avatars1.githubusercontent.com/u/1093990?v=3&s=400\",\n        \"name\": \"Jeremiah\"\n      },\n      \"unread\": true,\n      \"to\": [\n        {\n          \"email\": \"pete@snake-eyes.com\",\n          avatar: \"https://avatars0.githubusercontent.com/u/239742?v=3&s=460\",\n          \"name\": \"Pete\",\n          \"type\": \"to\"\n        }\n      ],\n      \"timestamp\": \"1200\",\n      \"headers\": {\n        \"Reply-To\": \"fishrock123@snake-eyes.com\",\n      },\n      \"important\": false\n    },\n    type: \"message\"\n  }, {\n    message: {\n      \"html\": \"<h1>Another Email</h1>\",\n      \"text\": \"Example text content\",\n      \"subject\": \"example subject\",\n      \"from\": {\n        \"email\": \"pete@snake-eyes.com\",\n        avatar: \"https://avatars0.githubusercontent.com/u/239742?v=3&s=460\",\n        \"name\": \"Pete\"\n      },\n      \"unread\": true,\n      \"to\": [\n        {\n          \"email\": \"fishrock123@snake-eyes.com\",\n          avatar: \"https://avatars1.githubusercontent.com/u/1093990?v=3&s=400\",\n          \"name\": \"Jeremiah\",\n          \"type\": \"to\"\n        }\n      ],\n      \"timestamp\": \"1000\",\n      \"headers\": {\n        \"Reply-To\": \"pete@snake-eyes.com\",\n      },\n      \"important\": false\n    },\n    type: \"message\"\n  }, {\n    thread_id: 2, //This is the id if it's part of some thread otherwise this property won't exist in document\n    message: {\n      \"html\": \"<p>Example HTML content</p>\",\n      \"text\": \"Example text content\",\n      \"subject\": \"example subject\",\n      \"from\": {\n        \"email\": \"pete@snake-eyes.com\",\n        avatar: \"https://avatars0.githubusercontent.com/u/239742?v=3&s=460\",\n        \"name\": \"Pete\"\n      },\n      \"unread\": false,\n      \"to\": [ {\n        \"email\": \"dan@snake-eyes.com\",\n        avatar: \"https://avatars0.githubusercontent.com/u/810438?v=3&s=460\",\n        \"name\": \"Dan\",\n        \"type\": \"to\"\n      }\n      ],\n      \"timestamp\": \"1000\",\n      \"headers\": {\n        \"Reply-To\": \"pete@snake-eyes.com\",\n      },\n      \"important\": false\n    },\n    type: \"message\"\n  }, {\n    thread_id: 2, //This is the id if it's part of some thread otherwise this property won't exist in document\n    message: {\n      \"html\": \"<h1>Example HTML reply</h1>\",\n      \"text\": \"Example reply\",\n      \"subject\": \"example subject\",\n      \"from\": {\n        \"email\": \"dan@snake-eyes.com\",\n        avatar: \"https://avatars0.githubusercontent.com/u/810438?v=3&s=460\",\n        \"name\": \"Dan\"\n      },\n      \"unread\": true,\n      \"to\": [\n        {\n          \"email\": \"pete@snake-eyes.com\",\n          avatar: \"https://avatars0.githubusercontent.com/u/239742?v=3&s=460\",\n          \"name\": \"Pete\",\n          \"type\": \"to\"\n        }\n      ],\n      \"timestamp\": \"1200\",\n      \"headers\": {\n        \"Reply-To\": \"dan@snake-eyes.com\",\n      },\n      \"important\": false\n    },\n    type: \"message\"\n  }, {\n    message: {\n      \"html\": \"<h1>Another Email</h1>\",\n      \"text\": \"Example text content\",\n      \"subject\": \"example subject\",\n      \"from\": {\n        \"email\": \"pete@snake-eyes.com\",\n        avatar: \"https://avatars0.githubusercontent.com/u/239742?v=3&s=460\",\n        \"name\": \"Pete\"\n      },\n      \"unread\": true,\n      \"to\": [\n        {\n          \"email\": \"dan@snake-eyes.com\",\n          avatar: \"https://avatars0.githubusercontent.com/u/810438?v=3&s=460\",\n          \"name\": \"Dan\",\n          \"type\": \"to\"\n        }\n      ],\n      \"timestamp\": \"1000\",\n      \"headers\": {\n        \"Reply-To\": \"pete@snake-eyes.com\",\n      },\n      \"important\": false\n    },\n    type: \"message\"\n  }, {\n    name: \"Ashok\",\n    email: \"ashok@snake-eyes.com\",\n    avatar: \"https://avatars3.githubusercontent.com/u/8316625?v=3&s=460\",\n    type: \"user\"\n  }, {\n    name: \"Dan\",\n    email: \"dan@snake-eyes.com\",\n    avatar: \"https://avatars0.githubusercontent.com/u/810438?v=3&s=460\",\n    type: \"user\"\n  }, {\n    name: \"Aria\",\n    email: \"aria@snake-eyes.com\",\n    avatar: \"https://avatars1.githubusercontent.com/u/2876?v=3&s=460\",\n    type: \"user\"\n  }, {\n    name: \"Pete\",\n    email: \"pete@snake-eyes.com\",\n    avatar: \"https://avatars0.githubusercontent.com/u/239742?v=3&s=460\",\n    type: \"user\"\n  }, {\n    name: \"Jeremiah\",\n    email: \"fishrock123@snake-eyes.com\",\n    avatar: \"https://avatars1.githubusercontent.com/u/1093990?v=3&s=400\",\n    type: \"user\"\n  }]\n};\n"
+      ]
+    },
+    "mtime": 1452190429000
+  },
+  "{\"filename\":\"/home/badrouch/Bureau/front-ends/react/redux-react-router-email-client-master/server/couchapp/loadViews.js\",\"env\":{},\"retainLines\":false,\"highlightCode\":true,\"suppressDeprecationMessages\":false,\"presets\":[],\"plugins\":[[[],{\"loose\":false,\"spec\":false}],[[],null],[[],null],[[],{\"spec\":false}],[[],null],[[],{\"loose\":false}],[[],null],[[],null],[[],null],[[],{\"loose\":false}],[[],{\"loose\":false}],[[],null],[[],null],[[],null],[[],{\"loose\":false}],[[],null],[[],{\"loose\":false}],[[],null],[[],null],[[],{\"loose\":false}],[[],{\"async\":false,\"asyncGenerators\":false}]],\"ignore\":[],\"code\":true,\"metadata\":true,\"ast\":true,\"comments\":true,\"compact\":\"auto\",\"minified\":false,\"sourceRoot\":\"/home/badrouch/Bureau/front-ends/react/redux-react-router-email-client-master/server/couchapp\",\"babelrc\":true,\"sourceType\":\"module\",\"moduleIds\":false,\"passPerPreset\":false,\"parserOpts\":false,\"generatorOpts\":false}:6.26.3": {
+    "metadata": {
+      "usedHelpers": [
+        "interopRequireDefault",
+        "interopRequireWildcard"
+      ],
+      "marked": [],
+      "modules": {
+        "imports": [
+          {
+            "source": "bluebird",
+            "imported": [
+              "default"
+            ],
+            "specifiers": [
+              {
+                "kind": "named",
+                "imported": "default",
+                "local": "Promise"
+              }
+            ]
+          },
+          {
+            "source": "../lib/db",
+            "imported": [
+              "*"
+            ],
+            "specifiers": [
+              {
+                "kind": "namespace",
+                "local": "db"
+              }
+            ]
+          },
+          {
+            "source": "fs",
+            "imported": [
+              "default"
+            ],
+            "specifiers": [
+              {
+                "kind": "named",
+                "imported": "default",
+                "local": "fs"
+              }
+            ]
+          },
+          {
+            "source": "path",
+            "imported": [
+              "default"
+            ],
+            "specifiers": [
+              {
+                "kind": "named",
+                "imported": "default",
+                "local": "path"
+              }
+            ]
+          },
+          {
+            "source": "fs-readfile-promise",
+            "imported": [
+              "default"
+            ],
+            "specifiers": [
+              {
+                "kind": "named",
+                "imported": "default",
+                "local": "readFile"
+              }
+            ]
+          }
+        ],
+        "exports": {
+          "exported": [],
+          "specifiers": []
+        }
+      }
+    },
+    "options": {
+      "filename": "/home/badrouch/Bureau/front-ends/react/redux-react-router-email-client-master/server/couchapp/loadViews.js",
+      "filenameRelative": "/home/badrouch/Bureau/front-ends/react/redux-react-router-email-client-master/server/couchapp/loadViews.js",
+      "env": {},
+      "retainLines": false,
+      "highlightCode": true,
+      "suppressDeprecationMessages": false,
+      "presets": [],
+      "plugins": [
+        [
+          [],
+          {
+            "loose": false,
+            "spec": false
+          }
+        ],
+        [
+          [],
+          null
+        ],
+        [
+          [],
+          null
+        ],
+        [
+          [],
+          {
+            "spec": false
+          }
+        ],
+        [
+          [],
+          null
+        ],
+        [
+          [],
+          {
+            "loose": false
+          }
+        ],
+        [
+          [],
+          null
+        ],
+        [
+          [],
+          null
+        ],
+        [
+          [],
+          null
+        ],
+        [
+          [],
+          {
+            "loose": false
+          }
+        ],
+        [
+          [],
+          {
+            "loose": false
+          }
+        ],
+        [
+          [],
+          null
+        ],
+        [
+          [],
+          null
+        ],
+        [
+          [],
+          null
+        ],
+        [
+          [],
+          {
+            "loose": false
+          }
+        ],
+        [
+          [],
+          null
+        ],
+        [
+          [],
+          {
+            "loose": false
+          }
+        ],
+        [
+          [],
+          null
+        ],
+        [
+          [],
+          null
+        ],
+        [
+          [],
+          {
+            "loose": false
+          }
+        ],
+        [
+          [],
+          {
+            "async": false,
+            "asyncGenerators": false
+          }
+        ]
+      ],
+      "ignore": [],
+      "code": true,
+      "metadata": true,
+      "ast": false,
+      "comments": true,
+      "compact": "auto",
+      "minified": false,
+      "sourceMaps": "both",
+      "sourceMapTarget": "loadViews.js",
+      "sourceFileName": "loadViews.js",
+      "sourceRoot": "/home/badrouch/Bureau/front-ends/react/redux-react-router-email-client-master/server/couchapp",
+      "babelrc": false,
+      "sourceType": "module",
+      "moduleRoot": "/home/badrouch/Bureau/front-ends/react/redux-react-router-email-client-master/server/couchapp",
+      "moduleIds": false,
+      "passPerPreset": false,
+      "parserOpts": false,
+      "generatorOpts": false,
+      "basename": "loadViews"
+    },
+    "ignored": false,
+    "code": "'use strict';\n\nvar _bluebird = require('bluebird');\n\nvar _bluebird2 = _interopRequireDefault(_bluebird);\n\nvar _db = require('../lib/db');\n\nvar db = _interopRequireWildcard(_db);\n\nvar _fs = require('fs');\n\nvar _fs2 = _interopRequireDefault(_fs);\n\nvar _path = require('path');\n\nvar _path2 = _interopRequireDefault(_path);\n\nvar _fsReadfilePromise = require('fs-readfile-promise');\n\nvar _fsReadfilePromise2 = _interopRequireDefault(_fsReadfilePromise);\n\nfunction _interopRequireWildcard(obj) { if (obj && obj.__esModule) { return obj; } else { var newObj = {}; if (obj != null) { for (var key in obj) { if (Object.prototype.hasOwnProperty.call(obj, key)) newObj[key] = obj[key]; } } newObj.default = obj; return newObj; } }\n\nfunction _interopRequireDefault(obj) { return obj && obj.__esModule ? obj : { default: obj }; }\n\nvar designDocPath = __dirname + '/design/doc.json';\n\nmodule.exports = function () {\n  return (0, _fsReadfilePromise2.default)(designDocPath).then(JSON.parse).then(function (val) {\n    var designName = '_design/emails';\n    db.prepareView(val, designName);\n  });\n};\n//# sourceMappingURL=data:application/json;charset=utf-8;base64,eyJ2ZXJzaW9uIjozLCJzb3VyY2VzIjpbImxvYWRWaWV3cy5qcyJdLCJuYW1lcyI6WyJkYiIsImRlc2lnbkRvY1BhdGgiLCJfX2Rpcm5hbWUiLCJtb2R1bGUiLCJleHBvcnRzIiwidGhlbiIsIkpTT04iLCJwYXJzZSIsInZhbCIsImRlc2lnbk5hbWUiLCJwcmVwYXJlVmlldyJdLCJtYXBwaW5ncyI6Ijs7QUFBQTs7OztBQUNBOztJQUFZQSxFOztBQUNaOzs7O0FBQ0E7Ozs7QUFDQTs7Ozs7Ozs7QUFFQSxJQUFNQyxnQkFBZ0JDLFlBQVksa0JBQWxDOztBQUVBQyxPQUFPQyxPQUFQLEdBQWlCLFlBQU07QUFDckIsU0FBTyxpQ0FBU0gsYUFBVCxFQUNOSSxJQURNLENBQ0RDLEtBQUtDLEtBREosRUFFTkYsSUFGTSxDQUVELFVBQVNHLEdBQVQsRUFBYztBQUNsQixRQUFJQyxhQUFhLGdCQUFqQjtBQUNBVCxPQUFHVSxXQUFILENBQWVGLEdBQWYsRUFBb0JDLFVBQXBCO0FBQ0QsR0FMTSxDQUFQO0FBTUQsQ0FQRCIsImZpbGUiOiJsb2FkVmlld3MuanMiLCJzb3VyY2VSb290IjoiL2hvbWUvYmFkcm91Y2gvQnVyZWF1L2Zyb250LWVuZHMvcmVhY3QvcmVkdXgtcmVhY3Qtcm91dGVyLWVtYWlsLWNsaWVudC1tYXN0ZXIvc2VydmVyL2NvdWNoYXBwIiwic291cmNlc0NvbnRlbnQiOlsiaW1wb3J0IFByb21pc2UgZnJvbSAnYmx1ZWJpcmQnO1xuaW1wb3J0ICogYXMgZGIgZnJvbSAnLi4vbGliL2RiJztcbmltcG9ydCBmcyBmcm9tICdmcyc7XG5pbXBvcnQgcGF0aCBmcm9tICdwYXRoJztcbmltcG9ydCByZWFkRmlsZSBmcm9tICdmcy1yZWFkZmlsZS1wcm9taXNlJztcblxuY29uc3QgZGVzaWduRG9jUGF0aCA9IF9fZGlybmFtZSArICcvZGVzaWduL2RvYy5qc29uJztcblxubW9kdWxlLmV4cG9ydHMgPSAoKSA9PiB7XG4gIHJldHVybiByZWFkRmlsZShkZXNpZ25Eb2NQYXRoKVxuICAudGhlbihKU09OLnBhcnNlKVxuICAudGhlbihmdW5jdGlvbih2YWwpIHtcbiAgICB2YXIgZGVzaWduTmFtZSA9ICdfZGVzaWduL2VtYWlscyc7XG4gICAgZGIucHJlcGFyZVZpZXcodmFsLCBkZXNpZ25OYW1lKTtcbiAgfSlcbn07XG4iXX0=",
+    "ast": null,
+    "map": {
+      "version": 3,
+      "sources": [
+        "loadViews.js"
+      ],
+      "names": [
+        "db",
+        "designDocPath",
+        "__dirname",
+        "module",
+        "exports",
+        "then",
+        "JSON",
+        "parse",
+        "val",
+        "designName",
+        "prepareView"
+      ],
+      "mappings": ";;AAAA;;;;AACA;;IAAYA,E;;AACZ;;;;AACA;;;;AACA;;;;;;;;AAEA,IAAMC,gBAAgBC,YAAY,kBAAlC;;AAEAC,OAAOC,OAAP,GAAiB,YAAM;AACrB,SAAO,iCAASH,aAAT,EACNI,IADM,CACDC,KAAKC,KADJ,EAENF,IAFM,CAED,UAASG,GAAT,EAAc;AAClB,QAAIC,aAAa,gBAAjB;AACAT,OAAGU,WAAH,CAAeF,GAAf,EAAoBC,UAApB;AACD,GALM,CAAP;AAMD,CAPD",
+      "file": "loadViews.js",
+      "sourceRoot": "/home/badrouch/Bureau/front-ends/react/redux-react-router-email-client-master/server/couchapp",
+      "sourcesContent": [
+        "import Promise from 'bluebird';\nimport * as db from '../lib/db';\nimport fs from 'fs';\nimport path from 'path';\nimport readFile from 'fs-readfile-promise';\n\nconst designDocPath = __dirname + '/design/doc.json';\n\nmodule.exports = () => {\n  return readFile(designDocPath)\n  .then(JSON.parse)\n  .then(function(val) {\n    var designName = '_design/emails';\n    db.prepareView(val, designName);\n  })\n};\n"
+      ]
+    },
+    "mtime": 1452190429000
+  }
+}
